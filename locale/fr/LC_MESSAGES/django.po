@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Aligulac\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-11 18:56+0200\n"
-"PO-Revision-Date: 2014-06-10 11:03+0100\n"
+"PO-Revision-Date: 2014-06-10 20:29+0100\n"
 "Last-Translator: Otolia <amoconst@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -26,88 +26,88 @@ msgstr ""
 #. Translators: matches as in search matches, not SC2 matches
 #: aligulac/aligulac/tools.py:110 aligulac/aligulac/tools.py:123
 msgid "Possible matches:"
-msgstr ""
+msgstr "Matches possibles:"
 
 #. Translators: E.g. "John, Lisa, Darren and Mike"
 #: aligulac/aligulac/tools.py:112 aligulac/aligulac/tools.py:134
 #, python-format
 msgid "%(commalist)s and %(final)s"
-msgstr ""
+msgstr "%(commalist)s et %(final)s"
 
 #. Translators: E.g. "John, Lisa, Darren, Mike and 5 more"
 #: aligulac/aligulac/tools.py:125
 #, python-format
 msgid "%(commalist)s and %(number)s more"
-msgstr ""
+msgstr "%(commalist)s et %(number)s autres"
 
 #: aligulac/aligulac/tools.py:141
 #, python-format
 msgid "'%s' not unique"
-msgstr ""
+msgstr "'%s' non-unique"
 
 #: aligulac/aligulac/tools.py:153
 msgid "You are not logged in."
-msgstr ""
+msgstr "Vous n'êtes pas connecté."
 
 #: aligulac/aligulac/tools.py:153
 msgid "login"
-msgstr ""
+msgstr "connexion"
 
 #: aligulac/aligulac/tools.py:156
 #, python-format
 msgid "You are logged in as %s"
-msgstr ""
+msgstr "Vous êtes connecté en tant que %s"
 
 #: aligulac/aligulac/tools.py:158
 msgid "logout"
-msgstr ""
+msgstr "déconnexion"
 
 #: aligulac/aligulac/tools.py:159
 msgid "change password"
-msgstr ""
+msgstr "changer de mot de passe"
 
 #: aligulac/aligulac/tools.py:172 aligulac/ratings/staff_views.py:315
 #: aligulac/ratings/staff_views.py:322
 msgid "This field is required."
-msgstr ""
+msgstr "Ce champ est requis."
 
 #: aligulac/aligulac/tools.py:244 aligulac/aligulac/tools.py:255
 #: templates/history.html:85
 msgid "Ranking"
-msgstr ""
+msgstr "Classement"
 
 #: aligulac/aligulac/tools.py:247 templates/player.html:738
 msgid "Current"
-msgstr ""
+msgstr "Courant"
 
 #: aligulac/aligulac/tools.py:248 aligulac/aligulac/tools.py:262
 #: aligulac/ratings/records_views.py:71 templates/history.html:10
 msgid "History"
-msgstr ""
+msgstr "Historique"
 
 #: aligulac/aligulac/tools.py:249 aligulac/aligulac/tools.py:355
 #: templates/player_earnings.html:30
 msgid "Earnings"
-msgstr ""
+msgstr "Gains"
 
 #: aligulac/aligulac/tools.py:252 aligulac/ratings/team_views.py:128
 #: templates/db.html:72 templates/index.html:25 templates/search.html:19
 #: templates/teams.html:10
 msgid "Teams"
-msgstr ""
+msgstr "Équipes"
 
 #: aligulac/aligulac/tools.py:256
 msgid "Transfers"
-msgstr ""
+msgstr "Transferts"
 
 #: aligulac/aligulac/tools.py:259 aligulac/ratings/records_views.py:125
 msgid "Records"
-msgstr ""
+msgstr "Records"
 
 #. Translators: Hall of fame
 #: aligulac/aligulac/tools.py:264
 msgid "HoF"
-msgstr ""
+msgstr "HoF"
 
 #: aligulac/aligulac/tools.py:265 aligulac/ratings/player_views.py:170
 #: aligulac/ratings/player_views.py:181 aligulac/ratings/player_views.py:187
@@ -120,7 +120,7 @@ msgstr ""
 #: templates/player.html:46 templates/player.html.py:129
 #: templates/player.html:212 templates/records.html:23
 msgid "All"
-msgstr ""
+msgstr "Tout"
 
 #: aligulac/aligulac/tools.py:266 aligulac/ratings/models.py:87
 #: aligulac/ratings/player_views.py:171 aligulac/ratings/player_views.py:641
@@ -129,7 +129,7 @@ msgstr ""
 #: templates/period.html.py:131 templates/period.html:370
 #: templates/reports_balance.html:169
 msgid "Protoss"
-msgstr ""
+msgstr "Protoss"
 
 #: aligulac/aligulac/tools.py:267 aligulac/ratings/models.py:88
 #: aligulac/ratings/player_views.py:172 aligulac/ratings/player_views.py:642
@@ -138,7 +138,7 @@ msgstr ""
 #: templates/period.html.py:132 templates/period.html:371
 #: templates/reports_balance.html:177
 msgid "Terran"
-msgstr ""
+msgstr "Terran"
 
 #: aligulac/aligulac/tools.py:268 aligulac/ratings/models.py:89
 #: aligulac/ratings/player_views.py:173 aligulac/ratings/player_views.py:643
@@ -147,70 +147,70 @@ msgstr ""
 #: templates/period.html.py:133 templates/period.html:372
 #: templates/reports_balance.html:185
 msgid "Zerg"
-msgstr ""
+msgstr "Zerg"
 
 #: aligulac/aligulac/tools.py:271 templates/db.html:23
 msgid "Results"
-msgstr ""
+msgstr "Résultats"
 
 #: aligulac/aligulac/tools.py:274
 msgid "By Date"
-msgstr ""
+msgstr "Par Date"
 
 #: aligulac/aligulac/tools.py:275
 msgid "By Event"
-msgstr ""
+msgstr "Par Événement"
 
 #: aligulac/aligulac/tools.py:276 templates/results_search.html:11
 #: templates/results_search.html.py:31 templates/search.html:11
 msgid "Search"
-msgstr ""
+msgstr "Recherche"
 
 #: aligulac/aligulac/tools.py:279
 msgid "Inference"
-msgstr ""
+msgstr "Inférence"
 
 #: aligulac/aligulac/tools.py:282 aligulac/ratings/inference_views.py:229
 #: templates/predict.html:11
 msgid "Predict"
-msgstr ""
+msgstr "Prédiction"
 
 #: aligulac/aligulac/tools.py:285 aligulac/aligulac/tools.py:309
 msgid "Misc"
-msgstr ""
+msgstr "Autres"
 
 #: aligulac/aligulac/tools.py:288 aligulac/ratings/misc_views.py:36
 msgid "Balance Report"
-msgstr ""
+msgstr "Rapport d'équilibrage"
 
 #: aligulac/aligulac/tools.py:289
 msgid "Days Since…"
-msgstr ""
+msgstr "Jours depuis..."
 
 #: aligulac/aligulac/tools.py:292
 msgid "About"
-msgstr ""
+msgstr "À propos"
 
 #: aligulac/aligulac/tools.py:295 templates/faq.html:10
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: aligulac/aligulac/tools.py:296 templates/blog.html:10
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: aligulac/aligulac/tools.py:297
 msgid "Database"
-msgstr ""
+msgstr "Base de données"
 
 #: aligulac/aligulac/tools.py:298
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: aligulac/aligulac/tools.py:301 templates/forms.html:118
 #: templates/language.html:41
 msgid "Submit"
-msgstr ""
+msgstr "Soumettre"
 
 #. Translators: Matches as in SC2-matches, not search matches.
 #: aligulac/aligulac/tools.py:305 aligulac/ratings/inference_views.py:725
@@ -219,42 +219,42 @@ msgstr ""
 #: templates/add.html:75 templates/eventres.html:257
 #: templates/historical.html:28 templates/pred_rrgroup.html:67
 msgid "Matches"
-msgstr ""
+msgstr "Matches"
 
 #: aligulac/aligulac/tools.py:306
 msgid "Review"
-msgstr ""
+msgstr "Réviser"
 
 #: aligulac/aligulac/tools.py:307 templates/events.html:10
 #: templates/events.html.py:13 templates/index.html:26
 #: templates/search.html:41
 msgid "Events"
-msgstr ""
+msgstr "Événements"
 
 #: aligulac/aligulac/tools.py:308 aligulac/ratings/staff_views.py:951
 #: templates/events_open.html:6
 msgid "Open events"
-msgstr ""
+msgstr "Événements ouverts"
 
 #: aligulac/aligulac/tools.py:347
 msgid "Summary"
-msgstr ""
+msgstr "Résumé"
 
 #: aligulac/aligulac/tools.py:350
 msgid "Rating history"
-msgstr ""
+msgstr "Historique de l'évaluation"
 
 #: aligulac/aligulac/tools.py:352 templates/pred_match.html:146
 msgid "Match history"
-msgstr ""
+msgstr "Historique des matches"
 
 #: aligulac/aligulac/tools.py:358
 msgid "Adjustments"
-msgstr ""
+msgstr "Ajustements"
 
 #: aligulac/aligulac/views.py:60
 msgid "Contains player information."
-msgstr ""
+msgstr "Contient les données des joueurs"
 
 #: aligulac/aligulac/views.py:62 aligulac/aligulac/views.py:92
 #: aligulac/aligulac/views.py:132 aligulac/aligulac/views.py:171
@@ -263,33 +263,35 @@ msgstr ""
 #: aligulac/aligulac/views.py:279 aligulac/aligulac/views.py:293
 #: aligulac/aligulac/views.py:304 aligulac/aligulac/views.py:322
 msgid "primary key"
-msgstr ""
+msgstr "clé primaire"
 
 #: aligulac/aligulac/views.py:63
 msgid "in-game name of the player"
-msgstr ""
+msgstr "pseudonyme"
 
 #: aligulac/aligulac/views.py:64
 msgid "real name"
-msgstr ""
+msgstr "Nom"
 
 #: aligulac/aligulac/views.py:65 aligulac/ratings/player_views.py:151
 msgid "birthday"
-msgstr ""
+msgstr "Date de naissance"
 
 #: aligulac/aligulac/views.py:66 templates/player.html:496
 msgid "MC number"
-msgstr ""
+msgstr "Nombre MC"
 
 #: aligulac/aligulac/views.py:67 aligulac/aligulac/views.py:147
 msgid "external TLPD ID"
-msgstr ""
+msgstr "TLPD ID externe"
 
 #: aligulac/aligulac/views.py:69
 msgid ""
 "bit-flag value denoting which TLPD databases this player is in: <br/>1 = KR "
 "WoL, 2 = IN WoL, 4 = HotS, 8 = HotS beta, 16 = WoL beta"
 msgstr ""
+"valeur bit-flag indiquant quelle base de données TLPD ce player se trouve: "
+"<br/>1 = KR WoL, 2 = IN WoL, 4 = HotS, 8 = HotS beta, 16 = WoL beta"
 
 #: aligulac/aligulac/views.py:72 aligulac/aligulac/views.py:145
 #: aligulac/aligulac/views.py:250
@@ -297,31 +299,37 @@ msgid ""
 "title of Liquipedia page <br/>the part after http://wiki.teamliquid.net/"
 "starcraft2/"
 msgstr ""
+"titre de la page Liquipedia <br/>la partie de l'adresse située après http://"
+"wiki.teamliquid.net/starcraft2/"
 
 #: aligulac/aligulac/views.py:74
 msgid "external sc2earnings.com ID"
-msgstr ""
+msgstr "sc2earnings.com ID externe"
 
 #: aligulac/aligulac/views.py:75
 msgid "ISO-3166-1 alpha-2 country code"
-msgstr ""
+msgstr "ISO-3166-1 alpha-2 code national"
 
 #: aligulac/aligulac/views.py:77
 msgid "P, T or Z for normal races, R for random and S for race switcher"
 msgstr ""
+"P, T or Z pour les races normales, R pour aléatoire et S pour les autres "
+"(Switcher)"
 
 #: aligulac/aligulac/views.py:79
 #, python-format
 msgid "their PP score <br/>see <a href=\"%s\">Hall of Fame</a> for explanation"
 msgstr ""
+"leur score PP <br/>cf. <a href=\"%s\">Hall of Fame</a> pour les explications"
 
 #: aligulac/aligulac/views.py:81
 msgid "foreign key to period <br/> start of PP-period"
-msgstr ""
+msgstr "clé étrangère à période <br/> début de la période PP"
 
 #: aligulac/aligulac/views.py:82
 msgid "foreign key to period <br/> first period after end of PP-period"
 msgstr ""
+"clé étrangère à période <br/> première période après la fin de la période PP"
 
 #. Translators: rating is a table name and must be in English
 #: aligulac/aligulac/views.py:85
@@ -329,82 +337,94 @@ msgid ""
 "foreign key to rating <br/>should link to the latest published rating of the "
 "player"
 msgstr ""
+"clé étrangère à évaluation <br/> devrait pointer vers la dernière évaluation "
+"publiée du joueur"
 
 #: aligulac/aligulac/views.py:90
 msgid "Contains game information."
-msgstr ""
+msgstr "Contient les informations de la partie"
 
 #. Translators: period is a table name and must be in English
 #: aligulac/aligulac/views.py:95
 msgid "foreign key to period <br/> the period this match was played in"
 msgstr ""
+"clé étrangère à période <br/> la période durant laquelle la partie a été "
+"jouée"
 
 #: aligulac/aligulac/views.py:96
 msgid "when the match was played <br/> often approximate"
-msgstr ""
+msgstr "quand la partie a été jouée <br/> souvent approximative"
 
 #: aligulac/aligulac/views.py:97
 msgid "foreign key to player <br/> player A"
-msgstr ""
+msgstr "clé étrangère à période <br/> joueur A"
 
 #: aligulac/aligulac/views.py:98
 msgid "foreign key to player <br/> player B"
-msgstr ""
+msgstr "clé étrangère à période <br/> joueur B"
 
 #: aligulac/aligulac/views.py:99
 msgid "score for player A"
-msgstr ""
+msgstr "score pour le joueur A"
 
 #: aligulac/aligulac/views.py:100
 msgid "score for player B"
-msgstr ""
+msgstr "score pour le joueur B"
 
 #: aligulac/aligulac/views.py:102
 msgid ""
 "race for player A <br/>not necessarily same as pla.race, S is not allowed"
 msgstr ""
+"joueur du joueur A <br/>pas nécessairement identique à pla.race, S n'est pas "
+"autorisé"
 
 #: aligulac/aligulac/views.py:105
 msgid ""
 "race for player B <br/>not necessarily same as plb.race, S is not allowed"
 msgstr ""
+"joueur du joueur B <br/>pas nécessairement identique à pla.race, S n'est pas "
+"autorisé"
 
 #: aligulac/aligulac/views.py:107
 msgid "true if the match has been rated"
-msgstr ""
+msgstr "true si le match a été évalué"
 
 #: aligulac/aligulac/views.py:109
 msgid ""
 "tournament, round, group etc. <br/>superceded by eventobj_id if latter is "
 "not null"
 msgstr ""
+"tournoi, tour, groupe etc. <br/> supplanté par eventobj_id si ce dernier "
+"n'est pas null"
 
 #. Translators: event is a table name and must be in English
 #: aligulac/aligulac/views.py:112
 msgid "foreign key to event <br/> supercedes event field"
-msgstr ""
+msgstr "clé étrangère à événement <br/> supplante le champ event"
 
 #: aligulac/aligulac/views.py:113
 msgid "foreign key to a table removed from the dump"
-msgstr ""
+msgstr "clé étrangère à une table retirée de la base"
 
 #: aligulac/aligulac/views.py:114
 msgid "game version used <br/> WoL, HotS, LotV"
-msgstr ""
+msgstr "version du jeu utilisé <br/> WoL, HotS, LotV"
 
 #: aligulac/aligulac/views.py:115
 msgid "whether this match was played offline"
-msgstr ""
+msgstr "true si le match a été joué hors-ligne"
 
 #. Translators: rating is a table name and must be in English
 #: aligulac/aligulac/views.py:118
 msgid "foreign key to rating <br/>rating of player A at the time of the match"
 msgstr ""
+"clé étrangère à évaluation <br/>évaluation du joueur A au moment de la partie"
 
 #. Translators: rating is a table name and must be in English
 #: aligulac/aligulac/views.py:122
 msgid "foreign key to rating <br/>rating of player B at the time of the match"
 msgstr ""
+"clé étrangère à évaluation <br/>évaluation du joueur B au moment de la partie"
 
 #: aligulac/aligulac/views.py:128
 msgid ""
