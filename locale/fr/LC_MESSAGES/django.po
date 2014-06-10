@@ -3,20 +3,20 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: Aligulac\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-11 18:56+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2014-06-10 11:03+0100\n"
+"Last-Translator: Otolia <amoconst@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.6.5\n"
 
 #: aligulac/currency.py:99
 #, python-format
@@ -509,115 +509,115 @@ msgstr ""
 #. Translators: period is a table name and must be in English
 #: aligulac/aligulac/views.py:184
 msgid "foreign key to period"
-msgstr ""
+msgstr "clé étrangère à période"
 
 #. Translators: player is a table name and must be in English
 #: aligulac/aligulac/views.py:186 aligulac/aligulac/views.py:263
 #: aligulac/aligulac/views.py:283 aligulac/aligulac/views.py:296
 #: aligulac/aligulac/views.py:310 aligulac/aligulac/views.py:323
 msgid "foreign key to player"
-msgstr ""
+msgstr "clé étrangère à joueur"
 
 #: aligulac/aligulac/views.py:187
 msgid "current rating"
-msgstr ""
+msgstr "évaluation courante"
 
 #: aligulac/aligulac/views.py:188
 msgid "current rating delta vP"
-msgstr ""
+msgstr "évaluation courante delta vP"
 
 #: aligulac/aligulac/views.py:189
 msgid "current rating delta vT"
-msgstr ""
+msgstr "évaluation courante delta vT"
 
 #: aligulac/aligulac/views.py:190
 msgid "current rating delta vZ"
-msgstr ""
+msgstr "évaluation courante delta vZ"
 
 #. Translators: RD = Rating Deviation
 #: aligulac/aligulac/views.py:192
 msgid "current RD"
-msgstr ""
+msgstr "ET courant"
 
 #: aligulac/aligulac/views.py:193
 msgid "current RD vP"
-msgstr ""
+msgstr "ET courant vP"
 
 #: aligulac/aligulac/views.py:194
 msgid "current RD vT"
-msgstr ""
+msgstr "ET courant vT"
 
 #: aligulac/aligulac/views.py:195
 msgid "current RD vZ"
-msgstr ""
+msgstr "ET courant vZ"
 
 #: aligulac/aligulac/views.py:196
 msgid "performance rating in this period"
-msgstr ""
+msgstr "évaluation de la performance sur cette période"
 
 #: aligulac/aligulac/views.py:197
 msgid "performance rating vP in this period"
-msgstr ""
+msgstr "évaluation de la performance vP sur cette période"
 
 #: aligulac/aligulac/views.py:198
 msgid "performance rating vT in this period"
-msgstr ""
+msgstr "évaluation de la performance vT sur cette période"
 
 #: aligulac/aligulac/views.py:199
 msgid "performance rating vZ in this period"
-msgstr ""
+msgstr "évaluation de la performance vZ sur cette période"
 
 #: aligulac/aligulac/views.py:200
 msgid "smoothed rating"
-msgstr ""
+msgstr "évaluation affinée"
 
 #: aligulac/aligulac/views.py:201
 msgid "smoothed rating vP"
-msgstr ""
+msgstr "évaluation affinée vP"
 
 #: aligulac/aligulac/views.py:202
 msgid "smoothed rating vT"
-msgstr ""
+msgstr "évaluation affinée vT"
 
 #: aligulac/aligulac/views.py:203
 msgid "smoothed rating vZ"
-msgstr ""
+msgstr "évaluation affinée vZ"
 
 #: aligulac/aligulac/views.py:204
 msgid "smoothed RD"
-msgstr ""
+msgstr "ET affiné"
 
 #: aligulac/aligulac/views.py:205
 msgid "smoothed RD vP"
-msgstr ""
+msgstr "ET affiné vP"
 
 #: aligulac/aligulac/views.py:206
 msgid "smoothed RD vZ"
-msgstr ""
+msgstr "ET affiné vZ"
 
 #: aligulac/aligulac/views.py:207
 msgid "smoothed RD vT"
-msgstr ""
+msgstr "ET affiné vT"
 
 #: aligulac/aligulac/views.py:208
 msgid "rank"
-msgstr ""
+msgstr "rang"
 
 #: aligulac/aligulac/views.py:209
 msgid "rank vP"
-msgstr ""
+msgstr "rang vP"
 
 #: aligulac/aligulac/views.py:210
 msgid "rank vT"
-msgstr ""
+msgstr "rang vT"
 
 #: aligulac/aligulac/views.py:211
 msgid "rank vZ"
-msgstr ""
+msgstr "rang vZ"
 
 #: aligulac/aligulac/views.py:212
 msgid "number of periods since last game"
-msgstr ""
+msgstr "nombre de péiodes depuis la dernière partie"
 
 #: aligulac/aligulac/views.py:214
 #, python-format
@@ -803,7 +803,7 @@ msgstr ""
 #. Translators: match is a table name and must be in English
 #: aligulac/aligulac/views.py:316
 msgid "foreign key to match"
-msgstr ""
+msgstr "clé étrangère de partie"
 
 #: aligulac/aligulac/views.py:320
 msgid "Contains stories (dots plotted in some players' rating charts.)"
@@ -828,63 +828,67 @@ msgstr ""
 
 #: aligulac/aligulac/views.py:427 templates/db.html:11
 msgid "Database status"
-msgstr ""
+msgstr "Statut de la base de données"
 
 #: aligulac/aligulac/views.py:434
 msgid "Name/organization"
-msgstr ""
+msgstr "Nom/Organisation"
 
 #: aligulac/aligulac/views.py:435 aligulac/ratings/staff_views.py:281
 #: templates/add.html:68
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: aligulac/aligulac/views.py:452
 msgid "Entered data was invalid."
-msgstr ""
+msgstr "La donnée entrée est invalide."
 
 #: aligulac/aligulac/views.py:467
 #, python-format
 msgid "Your API key is '%s'. Please keep it safe."
-msgstr ""
+msgstr "Votre clé API est '%s'. Conservez là précieusement."
 
 #: aligulac/aligulac/views.py:482 templates/api.html:7
 msgid "API documentation"
-msgstr ""
+msgstr "Documentation de l'API"
 
 #: aligulac/aligulac/views.py:517 aligulac/ratings/results_views.py:948
 msgid "Search results"
-msgstr ""
+msgstr "Résultat de la recherche"
 
 #: aligulac/aligulac/views.py:582 templates/login.html:10
 #: templates/login.html.py:31
 msgid "Login"
-msgstr ""
+msgstr "Connexion"
 
 #: aligulac/aligulac/views.py:601
 msgid "The old password didn't match. Your password was not changed."
 msgstr ""
+"L'ancien mot de passe ne correspond pas. Votre mot de passe n'a pas été "
+"changé."
 
 #: aligulac/aligulac/views.py:607
 msgid "The new passwords didn't match. Your password was not changed."
 msgstr ""
+"Les nouveaux mots de passe ne correspondent pas. Votre mot de passe n'a pas "
+"été changé."
 
 #: aligulac/aligulac/views.py:614
 #, python-format
 msgid "The password for %s was successfully changed."
-msgstr ""
+msgstr "Le mot de passe pour %s a été changé."
 
 #: aligulac/aligulac/views.py:617 templates/changepwd.html:9
 msgid "Change password"
-msgstr ""
+msgstr "Changer le mot de passe"
 
 #: aligulac/aligulac/views.py:626
 msgid "404: Not found"
-msgstr ""
+msgstr "404: Ressource non trouvée"
 
 #: aligulac/aligulac/views.py:632
 msgid "500: Internal Server Error"
-msgstr ""
+msgstr "500: Erreur interne du serveur"
 
 #: aligulac/countries/data.py:5
 msgid "Africa"
@@ -6178,12 +6182,12 @@ msgstr ""
 #: templates/pred_4pswiss.html:82 templates/pred_proleague.html:75
 #: templates/pred_rrgroup.html:116 templates/pred_sebracket.html:75
 msgid "Update results"
-msgstr ""
+msgstr "Mettre à jour les résultats"
 
 #: templates/pred_4pswiss.html:89 templates/pred_proleague.html:82
 #: templates/pred_rrgroup.html:123 templates/pred_sebracket.html:82
 msgid "Clear results"
-msgstr ""
+msgstr "Effacer les résultats"
 
 #. Translators: Something that can be posted on a forum.
 #: templates/pred_4pswiss.html:93 templates/pred_match.html:182
@@ -6195,76 +6199,76 @@ msgstr ""
 #: templates/pred_4pswiss.html:108 templates/pred_match.html:191
 #: templates/pred_proleague.html:101 templates/pred_rrgroup.html:142
 msgid "Formats:"
-msgstr ""
+msgstr "Formats:"
 
 #: templates/pred_4pswiss.html:109 templates/pred_match.html:192
 #: templates/pred_proleague.html:102 templates/pred_rrgroup.html:143
 msgid "Team Liquid"
-msgstr ""
+msgstr "Team Liquid"
 
 #: templates/pred_4pswiss.html:110 templates/pred_match.html:193
 #: templates/pred_proleague.html:103 templates/pred_rrgroup.html:144
 msgid "Reddit"
-msgstr ""
+msgstr "Reddit"
 
 #: templates/pred_match.html:15
 msgid "Verdict:"
-msgstr ""
+msgstr "Verdict:"
 
 #: templates/pred_match.html:16
 msgid "Even chances."
-msgstr ""
+msgstr "Chances égales."
 
 #: templates/pred_match.html:17
 #, python-format
 msgid "Slight advantage for %(pl)s."
-msgstr ""
+msgstr "Petit avantage à %(pl)s."
 
 #: templates/pred_match.html:18
 #, python-format
 msgid "Advantage for %(pl)s."
-msgstr ""
+msgstr "Avantage à %(pl)s."
 
 #: templates/pred_match.html:19
 #, python-format
 msgid "Large advantage for %(pl)s."
-msgstr ""
+msgstr "Grand avantage à %(pl)s."
 
 #: templates/pred_match.html:20
 #, python-format
 msgid "Overwhelming advantage for %(pl)s."
-msgstr ""
+msgstr "Avantage écrasant à %(pl)s."
 
 #: templates/pred_match.html:79
 msgid "Historical score"
-msgstr ""
+msgstr "Score historique"
 
 #. Translators: Opposing race here meaning the race relevant to the match being predicted.
 #: templates/pred_match.html:94
 msgid "Score vs. opposing race"
-msgstr ""
+msgstr "Score contre la race de l'adversaire"
 
 #. Translators: Form as in the current form of a player.
 #: templates/pred_match.html:109
 msgid "Form"
-msgstr ""
+msgstr "Forme"
 
 #: templates/pred_match.html:123
 msgid "Form vs. opposing race"
-msgstr ""
+msgstr "Forme contre la race de l'adversaire"
 
 #: templates/pred_match.html:137
 msgid "Score vs. each other"
-msgstr ""
+msgstr "Score contre l'adversaire"
 
 #: templates/pred_match.html:149 templates/pred_proleague.html:64
 msgid "Update match progress"
-msgstr ""
+msgstr "Mettre à jour la progression du match"
 
 #: templates/pred_match.html:156 templates/pred_match.html.py:162
 #, python-format
 msgid "Score for %(pl)s"
-msgstr ""
+msgstr "Score pour %(pl)s"
 
 #. Translators: player names, so e.g. Team Jaedong vs. Team Mvp
 #: templates/pred_proleague.html:11
@@ -6733,19 +6737,19 @@ msgstr ""
 
 #: templates/team.html:33
 msgid "admin"
-msgstr ""
+msgstr "admin"
 
 #: templates/team.html:47
 msgid "Short name"
-msgstr ""
+msgstr "Acronyme"
 
 #: templates/team.html:53
 msgid "Founded"
-msgstr ""
+msgstr "Fondé"
 
 #: templates/team.html:59
 msgid "Disbanded"
-msgstr ""
+msgstr "Dissous"
 
 #: templates/team.html:76 templates/teams.html:24
 msgid "Top 5 rating"
@@ -6755,11 +6759,11 @@ msgstr ""
 #: templates/team.html:89
 #, python-format
 msgid "#%(rank)s %(name)s"
-msgstr ""
+msgstr "#%(rank)s %(name)s"
 
 #: templates/team.html:103
 msgid "Offline matches"
-msgstr ""
+msgstr "Matches hors-ligne"
 
 #: templates/team.html:148
 msgid "Active roster"
@@ -6774,7 +6778,11 @@ msgid_plural ""
 "%(teamname)s has %(cnt)s players who have played a ranked game within the "
 "last two months."
 msgstr[0] ""
+"%(teamname)s a %(cnt)s joueur qui a joué une partie évaluée dans les deux "
+"derniers mois."
 msgstr[1] ""
+"%(teamname)s a %(cnt)s joueurs qui ont joué une partie évaluée dans les deux "
+"derniers mois."
 
 #: templates/team.html:154
 msgid "Inactive roster"
@@ -6789,28 +6797,32 @@ msgid_plural ""
 "%(teamname)s has %(cnt)s players who have been temporarily removed from the "
 "ranking due to inactivity."
 msgstr[0] ""
+"%(teamname)s a %(cnt)s joueur qui a été temporairement retiré des "
+"classements à cause de son inactivité."
 msgstr[1] ""
+"%(teamname)s a %(cnt)s joueurs qui ont été temporairement retiré des "
+"classements à cause de leur inactivité."
 
 #: templates/team.html:160
 msgid "Non-playing members"
-msgstr ""
+msgstr "Membre non-joueur"
 
 #: templates/team.html:161
 #, python-format
 msgid "Assigned to %(teamname)s in a non-playing capacity:"
-msgstr ""
+msgstr "Assigné à %(teamname)s dans une position autre que joueur:"
 
 #: templates/team.html:171
 msgid "Past members"
-msgstr ""
+msgstr "Anciens membres"
 
 #: templates/teams.html:19
 msgid "All-kill score"
-msgstr ""
+msgstr "Score All-kill"
 
 #: templates/teams.html:21
 msgid "Proleague score"
-msgstr ""
+msgstr "Score Proleague"
 
 #: templates/teams.html:57
 msgid "Disbanded teams"
@@ -6818,28 +6830,28 @@ msgstr ""
 
 #: templates/miniURL/list.html:9
 msgid "Short URLs list"
-msgstr ""
+msgstr "List des mini-URLs"
 
 #: templates/miniURL/list.html:15
 msgid "via"
-msgstr ""
+msgstr "via"
 
 #: templates/miniURL/list.html:16
 #, python-format
 msgid "created by %(sub)s"
-msgstr ""
+msgstr "crée par %(sub)s"
 
 #: templates/miniURL/list.html:17
 #, python-format
 msgid "(accessed %(ntimes)s time)"
 msgid_plural "(accessed %(ntimes)s times)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "(ouvert %(ntimes)s fois)"
+msgstr[1] "(ouvert %(ntimes)s fois)"
 
 #: templates/miniURL/list.html:20
 msgid "No short URLs."
-msgstr ""
+msgstr "Pas de mini-URL trouvé"
 
 #: templates/miniURL/new.html:9
 msgid "URL shortener"
-msgstr ""
+msgstr "Minifieur d'URL"
