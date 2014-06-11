@@ -5,17 +5,10 @@
 #
 msgid ""
 msgstr ""
-<<<<<<< Updated upstream
 "Project-Id-Version: Aligulac\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-11 18:56+0200\n"
-"PO-Revision-Date: 2014-06-10 20:29+0100\n"
-=======
-"Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-02 23:06+0200\n"
-"PO-Revision-Date: 2014-06-11 22:31+0100\n"
->>>>>>> Stashed changes
+"PO-Revision-Date: 2014-06-11 22:46+0100\n"
 "Last-Translator: Otolia <amoconst@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -33,11 +26,7 @@ msgstr "Taux de change introuvable pour la monnaie %(code)s au %(date)s"
 #. Translators: matches as in search matches, not SC2 matches
 #: aligulac/aligulac/tools.py:110 aligulac/aligulac/tools.py:123
 msgid "Possible matches:"
-<<<<<<< Updated upstream
-msgstr "Matches possibles:"
-=======
 msgstr "Correspondances possibles :"
->>>>>>> Stashed changes
 
 #. Translators: E.g. "John, Lisa, Darren and Mike"
 #: aligulac/aligulac/tools.py:112 aligulac/aligulac/tools.py:134
@@ -54,11 +43,7 @@ msgstr "%(commalist)s et %(number)s autres"
 #: aligulac/aligulac/tools.py:141
 #, python-format
 msgid "'%s' not unique"
-<<<<<<< Updated upstream
-msgstr "'%s' non-unique"
-=======
 msgstr "'%s' n'est pas unique"
->>>>>>> Stashed changes
 
 #: aligulac/aligulac/tools.py:153
 msgid "You are not logged in."
@@ -79,20 +64,12 @@ msgstr "déconnexion"
 
 #: aligulac/aligulac/tools.py:159
 msgid "change password"
-<<<<<<< Updated upstream
-msgstr "changer de mot de passe"
-=======
 msgstr "changer le mot de passe"
->>>>>>> Stashed changes
 
 #: aligulac/aligulac/tools.py:172 aligulac/ratings/staff_views.py:320
 #: aligulac/ratings/staff_views.py:327
 msgid "This field is required."
-<<<<<<< Updated upstream
-msgstr "Ce champ est requis."
-=======
 msgstr "Ce champ est obligatoire."
->>>>>>> Stashed changes
 
 #: aligulac/aligulac/tools.py:244 aligulac/aligulac/tools.py:255
 #: templates/history.html:85
@@ -101,11 +78,7 @@ msgstr "Classement"
 
 #: aligulac/aligulac/tools.py:247 templates/player.html:738
 msgid "Current"
-<<<<<<< Updated upstream
-msgstr "Courant"
-=======
 msgstr "Actuel"
->>>>>>> Stashed changes
 
 #: aligulac/aligulac/tools.py:248 aligulac/aligulac/tools.py:262
 #: aligulac/ratings/records_views.py:71 templates/history.html:10
@@ -147,11 +120,7 @@ msgstr "HoF"
 #: templates/player.html:46 templates/player.html.py:129
 #: templates/player.html:212 templates/records.html:23
 msgid "All"
-<<<<<<< Updated upstream
-msgstr "Tout"
-=======
 msgstr "Tous"
->>>>>>> Stashed changes
 
 #: aligulac/aligulac/tools.py:266 aligulac/ratings/models.py:87
 #: aligulac/ratings/player_views.py:171 aligulac/ratings/player_views.py:641
@@ -204,21 +173,6 @@ msgstr "Inférence"
 #: aligulac/aligulac/tools.py:282 aligulac/ratings/inference_views.py:229
 #: templates/predict.html:11
 msgid "Predict"
-<<<<<<< Updated upstream
-msgstr "Prédiction"
-
-#: aligulac/aligulac/tools.py:285 aligulac/aligulac/tools.py:309
-msgid "Misc"
-msgstr "Autres"
-
-#: aligulac/aligulac/tools.py:288 aligulac/ratings/misc_views.py:36
-msgid "Balance Report"
-msgstr "Rapport d'équilibrage"
-
-#: aligulac/aligulac/tools.py:289
-msgid "Days Since…"
-msgstr "Jours depuis..."
-=======
 msgstr "Prédire"
 
 #: aligulac/aligulac/tools.py:285 aligulac/aligulac/tools.py:309
@@ -232,7 +186,6 @@ msgstr "Rapport de Balance"
 #: aligulac/aligulac/tools.py:289
 msgid "Days Since…"
 msgstr "Jours depuis que..."
->>>>>>> Stashed changes
 
 #: aligulac/aligulac/tools.py:292
 msgid "About"
@@ -266,19 +219,11 @@ msgstr "Soumettre"
 #: templates/add.html:75 templates/eventres.html:255
 #: templates/historical.html:28 templates/pred_rrgroup.html:67
 msgid "Matches"
-<<<<<<< Updated upstream
-msgstr "Matches"
-
-#: aligulac/aligulac/tools.py:306
-msgid "Review"
-msgstr "Réviser"
-=======
 msgstr "Matchs"
 
 #: aligulac/aligulac/tools.py:306
 msgid "Review"
 msgstr "Validation"
->>>>>>> Stashed changes
 
 #: aligulac/aligulac/tools.py:307 templates/events.html:10
 #: templates/events.html.py:13 templates/index.html:26
@@ -293,17 +238,6 @@ msgstr "Événements ouverts"
 
 #: aligulac/aligulac/tools.py:347
 msgid "Summary"
-<<<<<<< Updated upstream
-msgstr "Résumé"
-
-#: aligulac/aligulac/tools.py:350
-msgid "Rating history"
-msgstr "Historique de l'évaluation"
-
-#: aligulac/aligulac/tools.py:352 templates/pred_match.html:146
-msgid "Match history"
-msgstr "Historique des matches"
-=======
 msgstr "Aperçu"
 
 #: aligulac/aligulac/tools.py:350
@@ -313,7 +247,6 @@ msgstr "Évolution"
 #: aligulac/aligulac/tools.py:352 templates/pred_match.html:146
 msgid "Match history"
 msgstr "Historique des matchs"
->>>>>>> Stashed changes
 
 #: aligulac/aligulac/tools.py:358
 msgid "Adjustments"
@@ -321,11 +254,7 @@ msgstr "Ajustements"
 
 #: aligulac/aligulac/views.py:60
 msgid "Contains player information."
-<<<<<<< Updated upstream
-msgstr "Contient les données des joueurs"
-=======
 msgstr "Contient les informations du joueur"
->>>>>>> Stashed changes
 
 #: aligulac/aligulac/views.py:62 aligulac/aligulac/views.py:92
 #: aligulac/aligulac/views.py:132 aligulac/aligulac/views.py:171
@@ -338,25 +267,6 @@ msgstr "clé primaire"
 
 #: aligulac/aligulac/views.py:63
 msgid "in-game name of the player"
-<<<<<<< Updated upstream
-msgstr "pseudonyme"
-
-#: aligulac/aligulac/views.py:64
-msgid "real name"
-msgstr "Nom"
-
-#: aligulac/aligulac/views.py:65 aligulac/ratings/player_views.py:151
-msgid "birthday"
-msgstr "Date de naissance"
-
-#: aligulac/aligulac/views.py:66 templates/player.html:496
-msgid "MC number"
-msgstr "Nombre MC"
-
-#: aligulac/aligulac/views.py:67 aligulac/aligulac/views.py:147
-msgid "external TLPD ID"
-msgstr "TLPD ID externe"
-=======
 msgstr "pseudonyme du joueur"
 
 #: aligulac/aligulac/views.py:64
@@ -374,18 +284,13 @@ msgstr "nombre MC"
 #: aligulac/aligulac/views.py:67 aligulac/aligulac/views.py:147
 msgid "external TLPD ID"
 msgstr "ID TLPD externe"
->>>>>>> Stashed changes
 
 #: aligulac/aligulac/views.py:69
 msgid ""
 "bit-flag value denoting which TLPD databases this player is in: <br/>1 = KR "
 "WoL, 2 = IN WoL, 4 = HotS, 8 = HotS beta, 16 = WoL beta"
 msgstr ""
-<<<<<<< Updated upstream
-"valeur bit-flag indiquant quelle base de données TLPD ce player se trouve: "
-=======
 "valeur drapeau indiquant dans quelle base de données TLPD figure le joueur : "
->>>>>>> Stashed changes
 "<br/>1 = KR WoL, 2 = IN WoL, 4 = HotS, 8 = HotS beta, 16 = WoL beta"
 
 #: aligulac/aligulac/views.py:72 aligulac/aligulac/views.py:145
@@ -394,18 +299,6 @@ msgid ""
 "title of Liquipedia page <br/>the part after http://wiki.teamliquid.net/"
 "starcraft2/"
 msgstr ""
-<<<<<<< Updated upstream
-"titre de la page Liquipedia <br/>la partie de l'adresse située après http://"
-"wiki.teamliquid.net/starcraft2/"
-
-#: aligulac/aligulac/views.py:74
-msgid "external sc2earnings.com ID"
-msgstr "sc2earnings.com ID externe"
-
-#: aligulac/aligulac/views.py:75
-msgid "ISO-3166-1 alpha-2 country code"
-msgstr "ISO-3166-1 alpha-2 code national"
-=======
 "titre de la page Liquipedia <br/>la partie après http://wiki.teamliquid.net/"
 "starcraft2/"
 
@@ -416,41 +309,21 @@ msgstr "ID sc2earnings.com externe"
 #: aligulac/aligulac/views.py:75
 msgid "ISO-3166-1 alpha-2 country code"
 msgstr "code pays ISO-3166-1 alpha-2"
->>>>>>> Stashed changes
 
 #: aligulac/aligulac/views.py:77
 msgid "P, T or Z for normal races, R for random and S for race switcher"
 msgstr ""
-<<<<<<< Updated upstream
-"P, T or Z pour les races normales, R pour aléatoire et S pour les autres "
-"(Switcher)"
-=======
 "P, T ou Z pour les races standard, R pour un joueur aléatoire et S pour un "
 "joueur changeant de race"
->>>>>>> Stashed changes
 
 #: aligulac/aligulac/views.py:79
 #, python-format
 msgid "their PP score <br/>see <a href=\"%s\">Hall of Fame</a> for explanation"
-<<<<<<< Updated upstream
-msgstr ""
-"leur score PP <br/>cf. <a href=\"%s\">Hall of Fame</a> pour les explications"
-
-#: aligulac/aligulac/views.py:81
-msgid "foreign key to period <br/> start of PP-period"
-msgstr "clé étrangère à période <br/> début de la période PP"
-
-#: aligulac/aligulac/views.py:82
-msgid "foreign key to period <br/> first period after end of PP-period"
-msgstr ""
-"clé étrangère à période <br/> première période après la fin de la période PP"
-=======
 msgstr "son score PP <br/>voir le <a href=\"%s\">Hall of Fame</a>"
 
 #: aligulac/aligulac/views.py:81
 msgid "foreign key to period <br/> start of PP-period"
 msgstr "clé étrangère de period <br/> début de la période PP"
->>>>>>> Stashed changes
 
 #. Translators: rating is a table name and must be in English
 #: aligulac/aligulac/views.py:85
@@ -458,42 +331,17 @@ msgid ""
 "foreign key to rating <br/>should link to the latest published rating of the "
 "player"
 msgstr ""
-<<<<<<< Updated upstream
-"clé étrangère à évaluation <br/> devrait pointer vers la dernière évaluation "
-"publiée du joueur"
-
-#: aligulac/aligulac/views.py:90
-msgid "Contains game information."
-msgstr "Contient les informations de la partie"
-=======
 "clé étrangère de rating <br/>doit rediriger vers la dernière évaluation du "
 "joueur publiée "
 
 #: aligulac/aligulac/views.py:90
 msgid "Contains game information."
 msgstr "Contient les informations du match."
->>>>>>> Stashed changes
 
 #. Translators: period is a table name and must be in English
 #: aligulac/aligulac/views.py:95
 msgid "foreign key to period <br/> the period this match was played in"
 msgstr ""
-<<<<<<< Updated upstream
-"clé étrangère à période <br/> la période durant laquelle la partie a été "
-"jouée"
-
-#: aligulac/aligulac/views.py:96
-msgid "when the match was played <br/> often approximate"
-msgstr "quand la partie a été jouée <br/> souvent approximative"
-
-#: aligulac/aligulac/views.py:97
-msgid "foreign key to player <br/> player A"
-msgstr "clé étrangère à période <br/> joueur A"
-
-#: aligulac/aligulac/views.py:98
-msgid "foreign key to player <br/> player B"
-msgstr "clé étrangère à période <br/> joueur B"
-=======
 "clé étrangère de period <br/> la période durant laquelle ce match a été joué"
 
 #: aligulac/aligulac/views.py:96
@@ -507,7 +355,6 @@ msgstr "clé étrangère de player <br/> joueur A"
 #: aligulac/aligulac/views.py:98
 msgid "foreign key to player <br/> player B"
 msgstr "clé étrangère de player <br/> joueur B"
->>>>>>> Stashed changes
 
 #: aligulac/aligulac/views.py:99
 msgid "score for player A"
@@ -521,22 +368,14 @@ msgstr "score pour le joueur B"
 msgid ""
 "race for player A <br/>not necessarily same as pla.race, S is not allowed"
 msgstr ""
-<<<<<<< Updated upstream
-"joueur du joueur A <br/>pas nécessairement identique à pla.race, S n'est pas "
-=======
 "race du joueur A <br/>pas nécessairement la même que pla.race, S n'est pas "
->>>>>>> Stashed changes
 "autorisé"
 
 #: aligulac/aligulac/views.py:105
 msgid ""
 "race for player B <br/>not necessarily same as plb.race, S is not allowed"
 msgstr ""
-<<<<<<< Updated upstream
-"joueur du joueur B <br/>pas nécessairement identique à pla.race, S n'est pas "
-=======
 "race du joueur B <br/>pas nécessairement la même que plb.race, S n'est pas "
->>>>>>> Stashed changes
 "autorisé"
 
 #: aligulac/aligulac/views.py:107
@@ -548,32 +387,12 @@ msgid ""
 "tournament, round, group etc. <br/>superceded by eventobj_id if latter is "
 "not null"
 msgstr ""
-<<<<<<< Updated upstream
-"tournoi, tour, groupe etc. <br/> supplanté par eventobj_id si ce dernier "
-"n'est pas null"
-=======
 "tournoi, tour, groupe, etc. <br/>remplacé par eventobj_id si le dernier "
 "n'est pas nul"
->>>>>>> Stashed changes
 
 #. Translators: event is a table name and must be in English
 #: aligulac/aligulac/views.py:112
 msgid "foreign key to event <br/> supercedes event field"
-<<<<<<< Updated upstream
-msgstr "clé étrangère à événement <br/> supplante le champ event"
-
-#: aligulac/aligulac/views.py:113
-msgid "foreign key to a table removed from the dump"
-msgstr "clé étrangère à une table retirée de la base"
-
-#: aligulac/aligulac/views.py:114
-msgid "game version used <br/> WoL, HotS, LotV"
-msgstr "version du jeu utilisé <br/> WoL, HotS, LotV"
-
-#: aligulac/aligulac/views.py:115
-msgid "whether this match was played offline"
-msgstr "true si le match a été joué hors-ligne"
-=======
 msgstr "clé étrangère de event <br/> remplace le champ event"
 
 #: aligulac/aligulac/views.py:113
@@ -587,27 +406,16 @@ msgstr "version du jeu utilisée <br/> WoL, HotS, LotV"
 #: aligulac/aligulac/views.py:115
 msgid "whether this match was played offline"
 msgstr "si le match a été joué offline"
->>>>>>> Stashed changes
 
 #. Translators: rating is a table name and must be in English
 #: aligulac/aligulac/views.py:118
 msgid "foreign key to rating <br/>rating of player A at the time of the match"
-<<<<<<< Updated upstream
-msgstr ""
-"clé étrangère à évaluation <br/>évaluation du joueur A au moment de la partie"
-=======
 msgstr "clé étrangère de rating <br/>évaluation du joueur A au moment du match"
->>>>>>> Stashed changes
 
 #. Translators: rating is a table name and must be in English
 #: aligulac/aligulac/views.py:122
 msgid "foreign key to rating <br/>rating of player B at the time of the match"
-<<<<<<< Updated upstream
-msgstr ""
-"clé étrangère à évaluation <br/>évaluation du joueur B au moment de la partie"
-=======
 msgstr "clé étrangère de rating <br/>évaluation du joueur B au moment du match"
->>>>>>> Stashed changes
 
 #: aligulac/aligulac/views.py:128
 msgid ""
@@ -726,36 +534,13 @@ msgstr "Contient les informations sur le classement"
 #. Translators: period is a table name and must be in English
 #: aligulac/aligulac/views.py:184
 msgid "foreign key to period"
-<<<<<<< Updated upstream
-msgstr "clé étrangère à période"
-=======
 msgstr "clé étrangère de period"
->>>>>>> Stashed changes
 
 #. Translators: player is a table name and must be in English
 #: aligulac/aligulac/views.py:186 aligulac/aligulac/views.py:263
 #: aligulac/aligulac/views.py:283 aligulac/aligulac/views.py:296
 #: aligulac/aligulac/views.py:310 aligulac/aligulac/views.py:323
 msgid "foreign key to player"
-<<<<<<< Updated upstream
-msgstr "clé étrangère à joueur"
-
-#: aligulac/aligulac/views.py:187
-msgid "current rating"
-msgstr "évaluation courante"
-
-#: aligulac/aligulac/views.py:188
-msgid "current rating delta vP"
-msgstr "évaluation courante delta vP"
-
-#: aligulac/aligulac/views.py:189
-msgid "current rating delta vT"
-msgstr "évaluation courante delta vT"
-
-#: aligulac/aligulac/views.py:190
-msgid "current rating delta vZ"
-msgstr "évaluation courante delta vZ"
-=======
 msgstr "clé étrangère de player"
 
 #: aligulac/aligulac/views.py:187
@@ -773,58 +558,26 @@ msgstr "écart de niveau actuel contre T"
 #: aligulac/aligulac/views.py:190
 msgid "current rating delta vZ"
 msgstr "écart de niveau actuel contre Z"
->>>>>>> Stashed changes
 
 #. Translators: RD = Rating Deviation
 #: aligulac/aligulac/views.py:192
 msgid "current RD"
-msgstr "ET courant"
+msgstr ""
 
 #: aligulac/aligulac/views.py:193
 msgid "current RD vP"
-msgstr "ET courant vP"
+msgstr ""
 
 #: aligulac/aligulac/views.py:194
 msgid "current RD vT"
-msgstr "ET courant vT"
+msgstr ""
 
 #: aligulac/aligulac/views.py:195
 msgid "current RD vZ"
-msgstr "ET courant vZ"
+msgstr ""
 
 #: aligulac/aligulac/views.py:196
 msgid "performance rating in this period"
-<<<<<<< Updated upstream
-msgstr "évaluation de la performance sur cette période"
-
-#: aligulac/aligulac/views.py:197
-msgid "performance rating vP in this period"
-msgstr "évaluation de la performance vP sur cette période"
-
-#: aligulac/aligulac/views.py:198
-msgid "performance rating vT in this period"
-msgstr "évaluation de la performance vT sur cette période"
-
-#: aligulac/aligulac/views.py:199
-msgid "performance rating vZ in this period"
-msgstr "évaluation de la performance vZ sur cette période"
-
-#: aligulac/aligulac/views.py:200
-msgid "smoothed rating"
-msgstr "évaluation affinée"
-
-#: aligulac/aligulac/views.py:201
-msgid "smoothed rating vP"
-msgstr "évaluation affinée vP"
-
-#: aligulac/aligulac/views.py:202
-msgid "smoothed rating vT"
-msgstr "évaluation affinée vT"
-
-#: aligulac/aligulac/views.py:203
-msgid "smoothed rating vZ"
-msgstr "évaluation affinée vZ"
-=======
 msgstr "niveau de performance sur la période"
 
 #: aligulac/aligulac/views.py:197
@@ -854,45 +607,25 @@ msgstr "Niveau lissé contre T"
 #: aligulac/aligulac/views.py:203
 msgid "smoothed rating vZ"
 msgstr "Niveau lissé contre Z"
->>>>>>> Stashed changes
 
 #: aligulac/aligulac/views.py:204
 msgid "smoothed RD"
-msgstr "ET affiné"
+msgstr ""
 
 #: aligulac/aligulac/views.py:205
 msgid "smoothed RD vP"
-msgstr "ET affiné vP"
+msgstr ""
 
 #: aligulac/aligulac/views.py:206
 msgid "smoothed RD vZ"
-msgstr "ET affiné vZ"
+msgstr ""
 
 #: aligulac/aligulac/views.py:207
 msgid "smoothed RD vT"
-msgstr "ET affiné vT"
+msgstr ""
 
 #: aligulac/aligulac/views.py:208
 msgid "rank"
-<<<<<<< Updated upstream
-msgstr "rang"
-
-#: aligulac/aligulac/views.py:209
-msgid "rank vP"
-msgstr "rang vP"
-
-#: aligulac/aligulac/views.py:210
-msgid "rank vT"
-msgstr "rang vT"
-
-#: aligulac/aligulac/views.py:211
-msgid "rank vZ"
-msgstr "rang vZ"
-
-#: aligulac/aligulac/views.py:212
-msgid "number of periods since last game"
-msgstr "nombre de péiodes depuis la dernière partie"
-=======
 msgstr "classement"
 
 #: aligulac/aligulac/views.py:209
@@ -910,7 +643,6 @@ msgstr "classement contre Z"
 #: aligulac/aligulac/views.py:212
 msgid "number of periods since last game"
 msgstr "nombre de période depuis la dernière partie"
->>>>>>> Stashed changes
 
 #: aligulac/aligulac/views.py:214
 #, python-format
@@ -1115,7 +847,7 @@ msgstr "paramètres pour l'interpolation des chaînes de caractères"
 #. Translators: match is a table name and must be in English
 #: aligulac/aligulac/views.py:316
 msgid "foreign key to match"
-msgstr "clé étrangère de partie"
+msgstr ""
 
 #: aligulac/aligulac/views.py:320
 msgid "Contains stories (dots plotted in some players' rating charts.)"
@@ -1146,11 +878,7 @@ msgstr "Statut de la base de données"
 
 #: aligulac/aligulac/views.py:434
 msgid "Name/organization"
-<<<<<<< Updated upstream
-msgstr "Nom/Organisation"
-=======
 msgstr "Nom/organisation"
->>>>>>> Stashed changes
 
 #: aligulac/aligulac/views.py:435 aligulac/ratings/staff_views.py:284
 #: templates/add.html:68
@@ -1159,26 +887,11 @@ msgstr "Contact"
 
 #: aligulac/aligulac/views.py:452
 msgid "Entered data was invalid."
-<<<<<<< Updated upstream
-msgstr "La donnée entrée est invalide."
-=======
 msgstr "Les données entrées étaient invalides"
->>>>>>> Stashed changes
 
 #: aligulac/aligulac/views.py:467
 #, python-format
 msgid "Your API key is '%s'. Please keep it safe."
-<<<<<<< Updated upstream
-msgstr "Votre clé API est '%s'. Conservez là précieusement."
-
-#: aligulac/aligulac/views.py:482 templates/api.html:7
-msgid "API documentation"
-msgstr "Documentation de l'API"
-
-#: aligulac/aligulac/views.py:517 aligulac/ratings/results_views.py:948
-msgid "Search results"
-msgstr "Résultat de la recherche"
-=======
 msgstr "Votre clef API est '%s'. Conservez la précieusement."
 
 #: aligulac/aligulac/views.py:482 templates/api.html:7
@@ -1188,7 +901,6 @@ msgstr "Documentation API"
 #: aligulac/aligulac/views.py:517 aligulac/ratings/results_views.py:948
 msgid "Search results"
 msgstr "Résultats de la recherche"
->>>>>>> Stashed changes
 
 #: aligulac/aligulac/views.py:582 templates/login.html:10
 #: templates/login.html.py:31
@@ -1204,22 +916,13 @@ msgstr ""
 #: aligulac/aligulac/views.py:607
 msgid "The new passwords didn't match. Your password was not changed."
 msgstr ""
-<<<<<<< Updated upstream
-"Les nouveaux mots de passe ne correspondent pas. Votre mot de passe n'a pas "
-"été changé."
-=======
 "Le nouveau mot de passe ne correspond pas. Le mot de passe n'a pas été "
 "changé."
->>>>>>> Stashed changes
 
 #: aligulac/aligulac/views.py:614
 #, python-format
 msgid "The password for %s was successfully changed."
-<<<<<<< Updated upstream
-msgstr "Le mot de passe pour %s a été changé."
-=======
 msgstr "Le mot de passe pour %s a été changé avec succès"
->>>>>>> Stashed changes
 
 #: aligulac/aligulac/views.py:617 templates/changepwd.html:9
 msgid "Change password"
@@ -1227,19 +930,11 @@ msgstr "Changer le mot de passe"
 
 #: aligulac/aligulac/views.py:626
 msgid "404: Not found"
-<<<<<<< Updated upstream
-msgstr "404: Ressource non trouvée"
-
-#: aligulac/aligulac/views.py:632
-msgid "500: Internal Server Error"
-msgstr "500: Erreur interne du serveur"
-=======
 msgstr "404 : non trouvé"
 
 #: aligulac/aligulac/views.py:632
 msgid "500: Internal Server Error"
 msgstr "500 : Erreur interne Serveur"
->>>>>>> Stashed changes
 
 #: aligulac/countries/data.py:5
 msgid "Africa"
@@ -6726,12 +6421,12 @@ msgstr ""
 #: templates/pred_4pswiss.html:82 templates/pred_proleague.html:75
 #: templates/pred_rrgroup.html:116 templates/pred_sebracket.html:75
 msgid "Update results"
-msgstr "Mettre à jour les résultats"
+msgstr ""
 
 #: templates/pred_4pswiss.html:89 templates/pred_proleague.html:82
 #: templates/pred_rrgroup.html:123 templates/pred_sebracket.html:82
 msgid "Clear results"
-msgstr "Effacer les résultats"
+msgstr ""
 
 #. Translators: Something that can be posted on a forum.
 #: templates/pred_4pswiss.html:93 templates/pred_match.html:182
@@ -6743,125 +6438,117 @@ msgstr ""
 #: templates/pred_4pswiss.html:108 templates/pred_match.html:191
 #: templates/pred_proleague.html:101 templates/pred_rrgroup.html:142
 msgid "Formats:"
-msgstr "Formats:"
+msgstr ""
 
 #: templates/pred_4pswiss.html:109 templates/pred_match.html:192
 #: templates/pred_proleague.html:102 templates/pred_rrgroup.html:143
 msgid "Team Liquid"
-msgstr "Team Liquid"
+msgstr ""
 
 #: templates/pred_4pswiss.html:110 templates/pred_match.html:193
 #: templates/pred_proleague.html:103 templates/pred_rrgroup.html:144
 msgid "Reddit"
-msgstr "Reddit"
+msgstr ""
 
 #: templates/pred_match.html:15
 msgid "Verdict:"
-msgstr "Verdict:"
+msgstr ""
 
 #: templates/pred_match.html:16
 msgid "Even chances."
-msgstr "Chances égales."
+msgstr ""
 
 #: templates/pred_match.html:17
 #, python-format
 msgid "Slight advantage for %(pl)s."
-msgstr "Petit avantage à %(pl)s."
+msgstr ""
 
 #: templates/pred_match.html:18
 #, python-format
 msgid "Advantage for %(pl)s."
-msgstr "Avantage à %(pl)s."
+msgstr ""
 
 #: templates/pred_match.html:19
 #, python-format
 msgid "Large advantage for %(pl)s."
-msgstr "Grand avantage à %(pl)s."
+msgstr ""
 
 #: templates/pred_match.html:20
 #, python-format
 msgid "Overwhelming advantage for %(pl)s."
-msgstr "Avantage écrasant à %(pl)s."
+msgstr ""
 
 #: templates/pred_match.html:79
 msgid "Historical score"
-msgstr "Score historique"
+msgstr ""
 
 #. Translators: Opposing race here meaning the race relevant to the match being predicted.
 #: templates/pred_match.html:94
 msgid "Score vs. opposing race"
-msgstr "Score contre la race de l'adversaire"
+msgstr ""
 
 #. Translators: Form as in the current form of a player.
 #: templates/pred_match.html:109
 msgid "Form"
-msgstr "Forme"
+msgstr ""
 
 #: templates/pred_match.html:123
 msgid "Form vs. opposing race"
-msgstr "Forme contre la race de l'adversaire"
+msgstr ""
 
 #: templates/pred_match.html:137
 msgid "Score vs. each other"
-<<<<<<< Updated upstream
-msgstr "Score contre l'adversaire"
+msgstr ""
 
 #: templates/pred_match.html:149 templates/pred_proleague.html:64
 msgid "Update match progress"
-msgstr "Mettre à jour la progression du match"
-=======
-msgstr "Score l'un contre l'autre"
-
-#: templates/pred_match.html:149 templates/pred_proleague.html:64
-msgid "Update match progress"
-msgstr "Mettre à jour le match"
->>>>>>> Stashed changes
+msgstr ""
 
 #: templates/pred_match.html:156 templates/pred_match.html.py:162
 #, python-format
 msgid "Score for %(pl)s"
-msgstr "Score pour %(pl)s"
+msgstr ""
 
 #. Translators: player names, so e.g. Team Jaedong vs. Team Mvp
 #: templates/pred_proleague.html:11
 #, python-format
 msgid "Team %(pla)s vs. Team %(plb)s"
-msgstr "Équipe %(pla)s vs. Équipe %(plb)s"
+msgstr ""
 
 #. Translators: Team [player], e.g. "Team Jaedong"
 #: templates/pred_proleague.html:19 templates/pred_proleague.html.py:25
 #, python-format
 msgid "Team %(p)s"
-msgstr "Équipe %(p)s"
+msgstr ""
 
 #: templates/pred_sebracket.html:23
 #, python-format
 msgid "Top %(num)s"
-msgstr "Top %(num)s"
+msgstr ""
 
 #: templates/pred_sebracket.html:64
 msgid "Update bracket progress"
-msgstr "Mettre à jour l'arbre du tournoir"
+msgstr ""
 
 #: templates/pred_sebracket.html:105
 msgid "Team Liquid (all)"
-msgstr "Team Liquid (complet)"
+msgstr ""
 
 #: templates/pred_sebracket.html:106
 msgid "Reddit (table)"
-msgstr "Reddit (tableau)"
+msgstr ""
 
 #: templates/pred_sebracket.html:107
 msgid "Reddit (median bracket)"
-msgstr "Reddit (intervalle médian)"
+msgstr ""
 
 #: templates/predict.html:27
 msgid "Show me the future!"
-msgstr "Lis moi l'avenir!"
+msgstr ""
 
 #: templates/predict.html:28
 msgid "Parse Liquipedia Bracket!"
-msgstr "Analyser l'arbre Liquipedia!"
+msgstr ""
 
 #: templates/predict.html:37
 msgid ""
@@ -7289,19 +6976,19 @@ msgstr ""
 
 #: templates/team.html:33
 msgid "admin"
-msgstr "admin"
+msgstr ""
 
 #: templates/team.html:47
 msgid "Short name"
-msgstr "Acronyme"
+msgstr ""
 
 #: templates/team.html:53
 msgid "Founded"
-msgstr "Fondé"
+msgstr ""
 
 #: templates/team.html:59
 msgid "Disbanded"
-msgstr "Dissous"
+msgstr ""
 
 #: templates/team.html:76 templates/teams.html:24
 msgid "Top 5 rating"
@@ -7311,11 +6998,11 @@ msgstr ""
 #: templates/team.html:89
 #, python-format
 msgid "#%(rank)s %(name)s"
-msgstr "#%(rank)s %(name)s"
+msgstr ""
 
 #: templates/team.html:103
 msgid "Offline matches"
-msgstr "Matches hors-ligne"
+msgstr ""
 
 #: templates/team.html:148
 msgid "Active roster"
@@ -7330,11 +7017,7 @@ msgid_plural ""
 "%(teamname)s has %(cnt)s players who have played a ranked game within the "
 "last two months."
 msgstr[0] ""
-"%(teamname)s a %(cnt)s joueur qui a joué une partie évaluée dans les deux "
-"derniers mois."
 msgstr[1] ""
-"%(teamname)s a %(cnt)s joueurs qui ont joué une partie évaluée dans les deux "
-"derniers mois."
 
 #: templates/team.html:154
 msgid "Inactive roster"
@@ -7349,32 +7032,28 @@ msgid_plural ""
 "%(teamname)s has %(cnt)s players who have been temporarily removed from the "
 "ranking due to inactivity."
 msgstr[0] ""
-"%(teamname)s a %(cnt)s joueur qui a été temporairement retiré des "
-"classements à cause de son inactivité."
 msgstr[1] ""
-"%(teamname)s a %(cnt)s joueurs qui ont été temporairement retiré des "
-"classements à cause de leur inactivité."
 
 #: templates/team.html:160
 msgid "Non-playing members"
-msgstr "Membre non-joueur"
+msgstr ""
 
 #: templates/team.html:161
 #, python-format
 msgid "Assigned to %(teamname)s in a non-playing capacity:"
-msgstr "Assigné à %(teamname)s dans une position autre que joueur:"
+msgstr ""
 
 #: templates/team.html:171
 msgid "Past members"
-msgstr "Anciens membres"
+msgstr ""
 
 #: templates/teams.html:19
 msgid "All-kill score"
-msgstr "Score All-kill"
+msgstr ""
 
 #: templates/teams.html:21
 msgid "Proleague score"
-msgstr "Score Proleague"
+msgstr ""
 
 #: templates/teams.html:57
 msgid "Disbanded teams"
@@ -7382,28 +7061,28 @@ msgstr ""
 
 #: templates/miniURL/list.html:9
 msgid "Short URLs list"
-msgstr "List des mini-URLs"
+msgstr ""
 
 #: templates/miniURL/list.html:15
 msgid "via"
-msgstr "via"
+msgstr ""
 
 #: templates/miniURL/list.html:16
 #, python-format
 msgid "created by %(sub)s"
-msgstr "crée par %(sub)s"
+msgstr ""
 
 #: templates/miniURL/list.html:17
 #, python-format
 msgid "(accessed %(ntimes)s time)"
 msgid_plural "(accessed %(ntimes)s times)"
-msgstr[0] "(ouvert %(ntimes)s fois)"
-msgstr[1] "(ouvert %(ntimes)s fois)"
+msgstr[0] ""
+msgstr[1] ""
 
 #: templates/miniURL/list.html:20
 msgid "No short URLs."
-msgstr "Pas de mini-URL trouvé"
+msgstr ""
 
 #: templates/miniURL/new.html:9
 msgid "URL shortener"
-msgstr "Minifieur d'URL"
+msgstr ""
