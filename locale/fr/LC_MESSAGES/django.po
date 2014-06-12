@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Aligulac\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-02 23:06+0200\n"
-"PO-Revision-Date: 2014-06-12 10:54+0100\n"
+"PO-Revision-Date: 2014-06-12 16:04+0100\n"
 "Last-Translator: Otolia <amoconst@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -6788,6 +6788,8 @@ msgstr "Notez que tout les entrées ne sont pas sensibles à la casse."
 #: templates/predict.html:50
 msgid "For <b>single elimination brackets</b> the following is possible:"
 msgstr ""
+"Pour des <b>arbres à élimination simple</b>, les issues suivantes sont "
+"possibles:"
 
 #: templates/predict.html:53
 msgid ""
@@ -6795,10 +6797,14 @@ msgid ""
 "best-of-5 for the first two rounds, and best-of-7 for the final. You can "
 "still enter a single number to apply to all rounds."
 msgstr ""
+"Utilisez un format de match différent pour chaque tour. Par exemple "
+"\"5,5,7\" signifie des matches en meilleur-de-5 pour les deux premiers "
+"rounds puis en meilleur-de-7 pour la finale. Vous pouvez toutefois entrer un "
+"nombre unique pour l'appliquer à tous les tours."
 
 #: templates/predict.html:54
 msgid "To indicate a BYE, enter \"bye\" or a single hyphen."
-msgstr ""
+msgstr "Pour indiquer un exempt, entrez \"bye\" ou un simple tiret."
 
 #: templates/predict.html:55
 msgid ""
@@ -6806,6 +6812,9 @@ msgid ""
 "syntax is fairly stretchy, so we make no guarantees, however. Note: you have "
 "to copy the bracket <em>code</em>."
 msgstr ""
+"Vous pouvez copier le code de l'ardre depuis Liquipedia et essayez de "
+"l'analyser. La syntaxe Mediawiki est assez tortueuse et nous ne "
+"guarantissons rien. Note: Vous devez copier l'arbre <em>code</em>."
 
 #: templates/predict.html:58
 msgid ""
@@ -6813,17 +6822,20 @@ msgid ""
 "then all the players of the other team. There must be an equal number of "
 "each, but it doesn't have to be odd."
 msgstr ""
+"Pour les<b>matches proleague</b> entrez en premier tous les joueurs d'un "
+"équipe puis tous les joueurs de l'autre. Il doit y avoir le même nombre de "
+"joueurs de chaque côté."
 
 #. Translators: Rating adjustments for [tag] on list number [listn].
 #: templates/ratingdetails.html:11
 #, python-format
 msgid "%(tag)s list %(listn)s"
-msgstr ""
+msgstr "%(tag)s liste %(listn)s"
 
 #: templates/ratingdetails.html:27
 #, python-format
 msgid "List %(listnumber)s"
-msgstr ""
+msgstr "Liste %(listnumber)s"
 
 #: templates/ratingdetails.html:45
 #, python-format
@@ -6831,11 +6843,14 @@ msgid ""
 "This period started on %(start)s and will end on %(end)s. The numbers given "
 "below are projected adjustments and can change before then."
 msgstr ""
+"Cette période débute le %(start)s et se terminera le %(end)s. Les chiffres "
+"donnés ci-dessous sont les ajustements prédits et sont susceptibles de "
+"changer d'ici là."
 
 #: templates/ratingdetails.html:47
 #, python-format
 msgid "This period started on %(start)s and ended on %(end)s."
-msgstr ""
+msgstr "Cette période a débuté le %(start)s et s'est terminée le %(end)s."
 
 #: templates/ratingdetails.html:54
 msgid "Old rtg."
@@ -6843,7 +6858,7 @@ msgstr "Ancienne éval."
 
 #: templates/ratingdetails.html:55
 msgid "Opposition"
-msgstr ""
+msgstr "Adversaires"
 
 #: templates/ratingdetails.html:56
 msgid "Expected score"
@@ -6863,7 +6878,7 @@ msgstr "Nouvelle éval."
 
 #: templates/ratingdetails.html:60
 msgid "Adjustment"
-msgstr ""
+msgstr "Ajustement"
 
 #: templates/ratingdetails.html:169
 msgid "Exact game details:"
@@ -6877,11 +6892,15 @@ msgid ""
 "will be included in the next update. This happens every six hours. The time "
 "of the last update can be found %(a)shere</a>."
 msgstr ""
+"<strong>Note :</strong> Certaines parties n'ont peut-être pas été incluses "
+"dans les calculs de l'évaluation car elles sont récentes. Elles seront "
+"incluses dans la prochaine mise à jour qui a lieu toute les six heures. Vous "
+"pouvez trouver l'heure de la dernière mise à jour %(a)shere</a>."
 
 #: templates/ratingdetails.html:180
 #, python-format
 msgid "%(plr)s played no games in this period."
-msgstr ""
+msgstr "%(plr)s n'a pas joué durant cette période."
 
 #: templates/ratinglist.html:156
 msgid "No entries found."
@@ -6890,6 +6909,8 @@ msgstr "Pas d'entrées trouvées."
 #: templates/records.html:14
 msgid "To avoid rating artifacts, the earliest periods are not counted."
 msgstr ""
+"Pour éviter les artefacts de calcul, les périodes les plus anciennes ne sont "
+"pas comptabilisées."
 
 #: templates/records.html:17
 #, python-format
