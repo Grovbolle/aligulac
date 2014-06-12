@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Aligulac\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-02 23:06+0200\n"
-"PO-Revision-Date: 2014-06-11 22:46+0100\n"
+"PO-Revision-Date: 2014-06-12 10:54+0100\n"
 "Last-Translator: Otolia <amoconst@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -561,20 +561,24 @@ msgstr "écart de niveau actuel contre Z"
 
 #. Translators: RD = Rating Deviation
 #: aligulac/aligulac/views.py:192
+#, fuzzy
 msgid "current RD"
-msgstr ""
+msgstr "ET courant"
 
 #: aligulac/aligulac/views.py:193
+#, fuzzy
 msgid "current RD vP"
-msgstr ""
+msgstr "ET courant vP"
 
 #: aligulac/aligulac/views.py:194
+#, fuzzy
 msgid "current RD vT"
-msgstr ""
+msgstr "ET courant vT"
 
 #: aligulac/aligulac/views.py:195
+#, fuzzy
 msgid "current RD vZ"
-msgstr ""
+msgstr "ET courant vZ"
 
 #: aligulac/aligulac/views.py:196
 msgid "performance rating in this period"
@@ -609,20 +613,24 @@ msgid "smoothed rating vZ"
 msgstr "Niveau lissé contre Z"
 
 #: aligulac/aligulac/views.py:204
+#, fuzzy
 msgid "smoothed RD"
-msgstr ""
+msgstr "ET affiné"
 
 #: aligulac/aligulac/views.py:205
+#, fuzzy
 msgid "smoothed RD vP"
-msgstr ""
+msgstr "ET affiné vP"
 
 #: aligulac/aligulac/views.py:206
+#, fuzzy
 msgid "smoothed RD vZ"
-msgstr ""
+msgstr "ET affiné vZ"
 
 #: aligulac/aligulac/views.py:207
+#, fuzzy
 msgid "smoothed RD vT"
-msgstr ""
+msgstr "ET affiné vT"
 
 #: aligulac/aligulac/views.py:208
 msgid "rank"
@@ -693,16 +701,19 @@ msgid "number of games played"
 msgstr "nombre de parties jouées"
 
 #: aligulac/aligulac/views.py:232
+#, fuzzy
 msgid "OP-score for Protoss"
-msgstr ""
+msgstr "Protoss"
 
 #: aligulac/aligulac/views.py:233
+#, fuzzy
 msgid "OP-score for Terran"
-msgstr ""
+msgstr "Terran"
 
 #: aligulac/aligulac/views.py:234
+#, fuzzy
 msgid "OP-score for Zerg"
-msgstr ""
+msgstr "Zerg"
 
 #: aligulac/aligulac/views.py:238
 msgid "Contains group information (for now, this means teams)."
@@ -763,8 +774,9 @@ msgstr ""
 #. Translators: group is a table name and must be in English
 #: aligulac/aligulac/views.py:265 aligulac/aligulac/views.py:298
 #: aligulac/aligulac/views.py:314
+#, fuzzy
 msgid "foreign key to group"
-msgstr ""
+msgstr "clé étrangère à période"
 
 #: aligulac/aligulac/views.py:266
 msgid "start date of membership"
@@ -846,8 +858,9 @@ msgstr "paramètres pour l'interpolation des chaînes de caractères"
 
 #. Translators: match is a table name and must be in English
 #: aligulac/aligulac/views.py:316
+#, fuzzy
 msgid "foreign key to match"
-msgstr ""
+msgstr "clé étrangère de partie"
 
 #: aligulac/aligulac/views.py:320
 msgid "Contains stories (dots plotted in some players' rating charts.)"
@@ -865,8 +878,9 @@ msgstr "quand cela s'est passé"
 
 #. Translators: event is a table name and must be in English
 #: aligulac/aligulac/views.py:328
+#, fuzzy
 msgid "foreign key to event (if applicable)"
-msgstr ""
+msgstr "clé étrangère de event"
 
 #: aligulac/aligulac/views.py:341 aligulac/blog/views.py:18
 msgid "The blog/news section is only in English, sorry."
@@ -2541,8 +2555,9 @@ msgstr "Ce match a été divisé compte tenu du changement de race."
 
 #: aligulac/ratings/models.py:185 aligulac/ratings/models.py:188
 #: aligulac/ratings/models.py:191
+#, fuzzy
 msgid "Irregular match"
-msgstr ""
+msgstr "Historique des matchs"
 
 #: aligulac/ratings/models.py:187
 #, python-format
@@ -3350,8 +3365,9 @@ msgstr[1] "%i match mis à jour"
 #: templates/results.html:11 templates/review.html:43 templates/team.html:20
 #: templates/team.html.py:22 templates/team.html:24 templates/team.html.py:54
 #: templates/team.html:60 templates/team.html.py:194 templates/team.html:195
+#, fuzzy
 msgid "F jS, Y"
-msgstr ""
+msgstr "j F Y, H:i e"
 
 #: aligulac/ratings/staff_views.py:111 aligulac/ratings/staff_views.py:121
 #: aligulac/ratings/staff_views.py:446
@@ -3425,54 +3441,63 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: aligulac/ratings/staff_views.py:427
-#, python-format
+#, fuzzy, python-format
 msgid "Closed '%s'."
-msgstr ""
+msgstr "Clôturé"
 
 #: aligulac/ratings/staff_views.py:430
-#, python-format
+#, fuzzy, python-format
 msgid "Did not close '%s'."
-msgstr ""
+msgstr "Fermer"
 
 #: aligulac/ratings/staff_views.py:509
+#, fuzzy
 msgid "Parent ID"
-msgstr ""
+msgstr "nœud parent"
 
 #: aligulac/ratings/staff_views.py:511
+#, fuzzy
 msgid "Other"
-msgstr ""
+msgstr "Score contre l'adversaire"
 
 #: aligulac/ratings/staff_views.py:512
 msgid "Group stage and playoffs"
 msgstr ""
 
 #: aligulac/ratings/staff_views.py:513
+#, fuzzy
 msgid "Groups A through D"
-msgstr ""
+msgstr "A-m-j"
 
 #: aligulac/ratings/staff_views.py:514
+#, fuzzy
 msgid "Groups A through H"
-msgstr ""
+msgstr "Groupes Round-robin"
 
 #: aligulac/ratings/staff_views.py:515
+#, fuzzy
 msgid "Ro64→Final"
-msgstr ""
+msgstr "Match final"
 
 #: aligulac/ratings/staff_views.py:516
+#, fuzzy
 msgid "Ro32→Final"
-msgstr ""
+msgstr "Match final"
 
 #: aligulac/ratings/staff_views.py:517
+#, fuzzy
 msgid "Ro16→Final"
-msgstr ""
+msgstr "Match final"
 
 #: aligulac/ratings/staff_views.py:518
+#, fuzzy
 msgid "Ro8→Final"
-msgstr ""
+msgstr "Match final"
 
 #: aligulac/ratings/staff_views.py:519
+#, fuzzy
 msgid "Ro4→Final"
-msgstr ""
+msgstr "Match final"
 
 #: aligulac/ratings/staff_views.py:520
 msgid "Ro64→Final + 3rd place"
@@ -3535,8 +3560,9 @@ msgid "Ro4→Final + 3rd place and early rounds"
 msgstr ""
 
 #: aligulac/ratings/staff_views.py:536
+#, fuzzy
 msgid "WB, LB, Final"
-msgstr ""
+msgstr "Match final"
 
 #: aligulac/ratings/staff_views.py:537
 msgid "LB: Round 1->Round 2"
@@ -3563,21 +3589,27 @@ msgid "Custom names"
 msgstr ""
 
 #: aligulac/ratings/staff_views.py:544
+#, fuzzy
 msgid "Big"
 msgstr ""
+"Les événements donnant lieu à de très nombreuses parties doivent être notés "
+"comme «big». Cela permet de couper la liste des parties. Cependant pas de "
+"problème si vous l'oubliez - ça sera fait automatiquement."
 
 #: aligulac/ratings/staff_views.py:545
+#, fuzzy
 msgid "No print"
-msgstr ""
+msgstr "Pas d'impression"
 
 #: aligulac/ratings/staff_views.py:568
-#, python-format
+#, fuzzy, python-format
 msgid "Could not find event ID %s."
-msgstr ""
+msgstr "Impossible de trouver cet objet évènement"
 
 #: aligulac/ratings/staff_views.py:573
+#, fuzzy
 msgid "Must specify an event to close."
-msgstr ""
+msgstr "Fermer l'événement"
 
 #: aligulac/ratings/staff_views.py:577
 msgid "No event names specified."
@@ -3591,16 +3623,19 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: aligulac/ratings/staff_views.py:625
+#, fuzzy
 msgid "Successfully closed event."
-msgstr ""
+msgstr "Clôturé"
 
 #: aligulac/ratings/staff_views.py:633
+#, fuzzy
 msgid "Source ID"
-msgstr ""
+msgstr "TLPD ID"
 
 #: aligulac/ratings/staff_views.py:634
+#, fuzzy
 msgid "Target ID"
-msgstr ""
+msgstr "TLPD ID"
 
 #: aligulac/ratings/staff_views.py:635 aligulac/ratings/staff_views.py:709
 msgid "Confirm"
@@ -3625,17 +3660,19 @@ msgid "The merging is complete"
 msgstr ""
 
 #: aligulac/ratings/staff_views.py:707
+#, fuzzy
 msgid "Event ID to move"
-msgstr ""
+msgstr "TLPD ID"
 
 #: aligulac/ratings/staff_views.py:708
+#, fuzzy
 msgid "New parent ID"
-msgstr ""
+msgstr "nœud parent"
 
 #: aligulac/ratings/staff_views.py:725 aligulac/ratings/staff_views.py:731
-#, python-format
+#, fuzzy, python-format
 msgid "No event with ID %i."
-msgstr ""
+msgstr "Tour %i"
 
 #: aligulac/ratings/staff_views.py:738
 msgid "Can't move an event to one of its descendants."
@@ -3646,21 +3683,24 @@ msgid "Please confirm event move."
 msgstr ""
 
 #: aligulac/ratings/staff_views.py:814
-#, python-format
+#, fuzzy, python-format
 msgid "Reopened '%s'."
-msgstr ""
+msgstr "#%(rank)s %(name)s"
 
 #: aligulac/ratings/staff_views.py:823 templates/add.html:12
+#, fuzzy
 msgid "Submit results"
-msgstr ""
+msgstr "Soumettre"
 
 #: aligulac/ratings/staff_views.py:853 templates/review.html:12
+#, fuzzy
 msgid "Review results"
-msgstr ""
+msgstr "Validation"
 
 #: aligulac/ratings/staff_views.py:887 templates/eventmgr.html:11
+#, fuzzy
 msgid "Manage events"
-msgstr ""
+msgstr "Événements"
 
 #: aligulac/ratings/staff_views.py:926
 #, python-format
@@ -3677,28 +3717,32 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: aligulac/ratings/team_views.py:87
+#, fuzzy
 msgid "short name"
-msgstr ""
+msgstr "Acronyme"
 
 #: aligulac/ratings/team_views.py:248 templates/player_transfers.html:6
+#, fuzzy
 msgid "Recent player transfers"
-msgstr ""
+msgstr "Transferts"
 
 #: aligulac/ratings/tools.py:55
 msgid "Euro"
 msgstr ""
 
 #: aligulac/ratings/tools.py:56
+#, fuzzy
 msgid "British Pound"
-msgstr ""
+msgstr "Territoire britanique de l'Océan Indien"
 
 #: aligulac/ratings/tools.py:57
 msgid "Australian Dollar"
 msgstr ""
 
 #: aligulac/ratings/tools.py:58
+#, fuzzy
 msgid "New-Zealand Dollar"
-msgstr ""
+msgstr "Nouvelle-Zélande"
 
 #: aligulac/ratings/tools.py:59
 msgid "US Dollar"
@@ -3737,8 +3781,9 @@ msgid "South Korean won"
 msgstr ""
 
 #: aligulac/ratings/tools.py:68
+#, fuzzy
 msgid "Singapore Dollar"
-msgstr ""
+msgstr "Singapour"
 
 #: aligulac/ratings/tools.py:69
 msgid "Indonesian Rupiah"
@@ -3749,20 +3794,24 @@ msgid "Thai Baht"
 msgstr ""
 
 #: aligulac/ratings/tools.py:71
+#, fuzzy
 msgid "Taiwan Dollar"
-msgstr ""
+msgstr "Taïwan"
 
 #: aligulac/ratings/tools.py:72
+#, fuzzy
 msgid "Hong Kong Dollar"
-msgstr ""
+msgstr "Hong-Kong"
 
 #: aligulac/ratings/tools.py:73
+#, fuzzy
 msgid "Philippines Peso"
-msgstr ""
+msgstr "Philippines"
 
 #: aligulac/ratings/tools.py:74
+#, fuzzy
 msgid "Indian Rupee"
-msgstr ""
+msgstr "Territoire britanique de l'Océan Indien"
 
 #: aligulac/ratings/tools.py:75
 msgid "Malaysian Ringgit"
@@ -3773,8 +3822,9 @@ msgid "Vietnamese Dong"
 msgstr ""
 
 #: aligulac/ratings/tools.py:77
+#, fuzzy
 msgid "Brazilian Real"
-msgstr ""
+msgstr "nom complet"
 
 #: aligulac/ratings/tools.py:78
 msgid "Peruvian Nuevo Sol"
@@ -3801,16 +3851,18 @@ msgid "Jamaican Dollar"
 msgstr ""
 
 #: aligulac/ratings/tools.py:84
+#, fuzzy
 msgid "Trinidad and Tobago Dollar"
-msgstr ""
+msgstr "Trinité-et-Tobago"
 
 #: aligulac/ratings/tools.py:85
 msgid "Bermudian Dollar"
 msgstr ""
 
 #: aligulac/ratings/tools.py:86
+#, fuzzy
 msgid "Czech Koruna"
-msgstr ""
+msgstr "République Tchèque"
 
 #: aligulac/ratings/tools.py:87
 msgid "Polish Zloty"
@@ -3845,24 +3897,27 @@ msgid "Israeli Shekel"
 msgstr ""
 
 #: aligulac/ratings/tools.py:95
+#, fuzzy
 msgid "United Arab Emirates Dirham"
-msgstr ""
+msgstr "Émirats Arabes Unis"
 
 #: aligulac/ratings/tools.py:96
 msgid "Qatari Riyal"
 msgstr ""
 
 #: aligulac/ratings/tools.py:97
+#, fuzzy
 msgid "Saudi Riyal"
-msgstr ""
+msgstr "Arabie Saoudite"
 
 #: aligulac/ratings/tools.py:98
 msgid "Egyptian Pound"
 msgstr ""
 
 #: aligulac/ratings/tools.py:99
+#, fuzzy
 msgid "South African Rand"
-msgstr ""
+msgstr "République de Centre Afrique"
 
 #: aligulac/ratings/tools.py:100
 msgid "Bitcoin"
@@ -3879,8 +3934,11 @@ msgid "Player '%s' was not found and cound not be made (missing race)"
 msgstr ""
 
 #: aligulac/ratings/templatetags/ratings_extras.py:121
+#, fuzzy
 msgid "Race switcher"
 msgstr ""
+"P, T ou Z pour les races standard, R pour un joueur aléatoire et S pour un "
+"joueur changeant de race"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:246
 msgid "TLPD:WoL:B"
@@ -3895,168 +3953,208 @@ msgid "TLPD:WoL:IN"
 msgstr ""
 
 #: aligulac/ratings/templatetags/ratings_extras.py:249
+#, fuzzy
 msgid "TLPD:HotS:B"
-msgstr ""
+msgstr "HotS"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:250
+#, fuzzy
 msgid "TLPD:HotS"
-msgstr ""
+msgstr "HotS"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:353
+#, fuzzy
 msgid "N/A"
-msgstr ""
+msgstr "Meilleurs des N matchs"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:494
+#, fuzzy
 msgid "January"
-msgstr ""
+msgstr "Janvier"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:495
+#, fuzzy
 msgid "February"
-msgstr ""
+msgstr "Février"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:496
+#, fuzzy
 msgid "March"
-msgstr ""
+msgstr "Mars"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:497
+#, fuzzy
 msgid "April"
-msgstr ""
+msgstr "Avril"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:498
+#, fuzzy
 msgid "May"
-msgstr ""
+msgstr "Mai"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:499
+#, fuzzy
 msgid "June"
-msgstr ""
+msgstr "Juin"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:500
+#, fuzzy
 msgid "July"
-msgstr ""
+msgstr "Juillet"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:501
+#, fuzzy
 msgid "August"
-msgstr ""
+msgstr "Août"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:502
+#, fuzzy
 msgid "September"
-msgstr ""
+msgstr "Septembre"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:503
+#, fuzzy
 msgid "October"
-msgstr ""
+msgstr "Octobre"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:504
+#, fuzzy
 msgid "November"
-msgstr ""
+msgstr "Novembre"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:505
+#, fuzzy
 msgid "December"
-msgstr ""
+msgstr "Décembre"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:506
+#, fuzzy
 msgid "Jan."
-msgstr ""
+msgstr "Jan"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:507
+#, fuzzy
 msgid "Feb."
-msgstr ""
+msgstr "Fév"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:508
+#, fuzzy
 msgid "Aug."
-msgstr ""
+msgstr "Aoû"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:509
 msgid "Sept."
 msgstr ""
 
 #: aligulac/ratings/templatetags/ratings_extras.py:510
+#, fuzzy
 msgid "Oct."
-msgstr ""
+msgstr "Oct"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:511
+#, fuzzy
 msgid "Nov."
-msgstr ""
+msgstr "Nov"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:512
+#, fuzzy
 msgid "Dec."
-msgstr ""
+msgstr "Dec"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:513
+#, fuzzy
 msgid "jan"
-msgstr ""
+msgstr "Jan"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:514
+#, fuzzy
 msgid "feb"
-msgstr ""
+msgstr "Fév"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:515
+#, fuzzy
 msgid "mar"
-msgstr ""
+msgstr "Mar"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:516
+#, fuzzy
 msgid "apr"
-msgstr ""
+msgstr "Avr"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:517
+#, fuzzy
 msgid "may"
-msgstr ""
+msgstr "Mai"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:518
+#, fuzzy
 msgid "jun"
-msgstr ""
+msgstr "Jun"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:519
+#, fuzzy
 msgid "jul"
-msgstr ""
+msgstr "Jul"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:520
+#, fuzzy
 msgid "aug"
-msgstr ""
+msgstr "Aoû"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:521
+#, fuzzy
 msgid "sep"
-msgstr ""
+msgstr "Sep"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:522
+#, fuzzy
 msgid "oct"
-msgstr ""
+msgstr "Oct"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:523
+#, fuzzy
 msgid "nov"
-msgstr ""
+msgstr "Nov"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:524
+#, fuzzy
 msgid "dec"
-msgstr ""
+msgstr "Dec"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:525
+#, fuzzy
 msgid "Monday"
-msgstr ""
+msgstr "Lundi"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:526
+#, fuzzy
 msgid "Tuesday"
-msgstr ""
+msgstr "Mardi"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:527
+#, fuzzy
 msgid "Wednesday"
-msgstr ""
+msgstr "Mercredi"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:528
+#, fuzzy
 msgid "Thursday"
-msgstr ""
+msgstr "Jeudi"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:529
+#, fuzzy
 msgid "Friday"
-msgstr ""
+msgstr "Vendredi"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:530
+#, fuzzy
 msgid "Saturday"
-msgstr ""
+msgstr "Samedi"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:531
+#, fuzzy
 msgid "Sunday"
-msgstr ""
+msgstr "Dimanche"
 
 #: aligulac/ratings/templatetags/ratings_extras.py:532
 msgid "mon"
@@ -4110,8 +4208,9 @@ msgid "They are pending review before being visible."
 msgstr ""
 
 #: templates/add.html:34
+#, fuzzy
 msgid "Show:"
-msgstr ""
+msgstr "Ne montrer que les matchs non affectés"
 
 #: templates/add.html:35
 msgid "guide"
@@ -4126,8 +4225,9 @@ msgid "examples"
 msgstr ""
 
 #: templates/add.html:38
+#, fuzzy
 msgid "common problems"
-msgstr ""
+msgstr "Utilisations fréquentes"
 
 #: templates/add.html:45
 msgid ""
@@ -4137,12 +4237,14 @@ msgid ""
 msgstr ""
 
 #: templates/add.html:49
+#, fuzzy
 msgid "Event object"
-msgstr ""
+msgstr "Impossible de trouver cet objet évènement"
 
 #: templates/add.html:50
+#, fuzzy
 msgid "The event the games were played in."
-msgstr ""
+msgstr "nombre de parties jouées"
 
 #: templates/add.html:52
 #, python-format
@@ -4153,8 +4255,9 @@ msgid ""
 msgstr ""
 
 #: templates/add.html:55
+#, fuzzy
 msgid "Date played"
-msgstr ""
+msgstr "Par Date"
 
 #: templates/add.html:56
 msgid ""
@@ -4209,8 +4312,9 @@ msgid ""
 msgstr ""
 
 #: templates/add.html:87 templates/matchlist.html:41
+#, fuzzy
 msgid "Score"
-msgstr ""
+msgstr "Score Proleague"
 
 #: templates/add.html:91
 msgid ""
@@ -4229,9 +4333,12 @@ msgid "Player tag, e.g. \"DongRaeGu\"."
 msgstr ""
 
 #: templates/add.html:98
+#, fuzzy
 msgid ""
 "Race, i.e. \"P\", \"T\", \"Z\", \"R\" (Random) or \"S\" (Race Switcher)."
 msgstr ""
+"P, T ou Z pour les races standard, R pour un joueur aléatoire et S pour un "
+"joueur changeant de race"
 
 #: templates/add.html:99
 #, python-format
@@ -4252,11 +4359,13 @@ msgid ""
 msgstr ""
 
 #: templates/add.html:102
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "A player ID number, which you can get from the URL of the %(a)splayer page</"
 "a>, e.g. \"4\"."
 msgstr ""
+"Le nombre ID du joueur que vous pouvez avoir à partir de l'URL de la page du "
+"joueur, par exemple \"4\"."
 
 #: templates/add.html:105
 #, python-format
@@ -4372,12 +4481,14 @@ msgid "USA"
 msgstr ""
 
 #: templates/add.html:172 templates/review.html:84
+#, fuzzy
 msgid "Commit"
-msgstr ""
+msgstr "Ajouter des sous-éléments"
 
 #: templates/add.html:173
+#, fuzzy
 msgid "Commit and close event"
-msgstr ""
+msgstr "Fermer l'événement"
 
 #: templates/api.html:28
 msgid "API access key"
@@ -5876,16 +5987,18 @@ msgid "Language"
 msgstr ""
 
 #: templates/index.html:165
+#, fuzzy
 msgid "Find player, team or event:"
-msgstr ""
+msgstr "Impossible de trouver cet objet évènement"
 
 #: templates/index.html:186
 msgid "Current top 10"
 msgstr ""
 
 #: templates/index.html:191
+#, fuzzy
 msgid "F jS"
-msgstr ""
+msgstr "j F Y, H:i e"
 
 #: templates/index.html:191
 #, python-format
@@ -5934,16 +6047,19 @@ msgid "For reasons of convenience, the following will not be translated:"
 msgstr ""
 
 #: templates/language.html:51
+#, fuzzy
 msgid "News"
-msgstr ""
+msgstr "La section blog/news est seulement en anglais, désolé."
 
 #: templates/language.html:53
+#, fuzzy
 msgid "Event names"
-msgstr ""
+msgstr "nom complet de l'événement (y compris les noms des parents)"
 
 #: templates/language.html:54
+#, fuzzy
 msgid "Team names"
-msgstr ""
+msgstr "Par équipe"
 
 #: templates/language.html:55
 msgid "Player nicknames"
@@ -5962,20 +6078,24 @@ msgid "Username:"
 msgstr ""
 
 #: templates/login.html:26
+#, fuzzy
 msgid "Password:"
-msgstr ""
+msgstr "changer le mot de passe"
 
 #: templates/manage.html:11
+#, fuzzy
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Pages divers"
 
 #: templates/manage.html:14
+#, fuzzy
 msgid "Miscellaneous administration"
-msgstr ""
+msgstr "Pages divers"
 
 #: templates/manage.html:18
+#, fuzzy
 msgid "Merge players"
-msgstr ""
+msgstr "Joueurs"
 
 #: templates/manage.html:27
 msgid "CAREFUL:"
@@ -5996,8 +6116,9 @@ msgid "Merge"
 msgstr ""
 
 #: templates/manage.html:69
+#, fuzzy
 msgid "Move events"
-msgstr ""
+msgstr "Événements"
 
 #: templates/manage.html:79
 #, python-format
@@ -6009,12 +6130,14 @@ msgid "Move"
 msgstr ""
 
 #: templates/matchlist.html:40
+#, fuzzy
 msgid "Player A"
-msgstr ""
+msgstr "Joueur"
 
 #: templates/matchlist.html:42
+#, fuzzy
 msgid "Player B"
-msgstr ""
+msgstr "score pour le joueur B"
 
 #: templates/matchlist.html:66 templates/matchlist.html.py:104
 msgid "Unknown event(s)"
@@ -6025,16 +6148,24 @@ msgstr ""
 #: templates/matchlist.html:130 templates/matchlist.html.py:131
 #: templates/matchlist.html:145 templates/matchlist.html.py:146
 #: templates/review.html:35
+#, fuzzy
 msgid "hide"
 msgstr ""
+"Pour faciliter la lecture des noms d'événements, vous pouvez rendre un "
+"élément «invisible» : dans l'interface de gestion, cochez la case «noprint». "
+"Le nom de l'élément restera caché. Ainsi, en masquant l'élément «Group "
+"Stage» vous évitez d'avoir le nom complet «Code S Group Stage Group A» et "
+"obtenez plus simplement «Code S Group A», qui est plus lisible ! Ce procédé "
+"est souvent utilisé pour les phases de groupe et les playoffs."
 
 #: templates/matchlist.html:76 templates/matchlist.html.py:77
 #: templates/matchlist.html:109 templates/matchlist.html.py:110
 #: templates/matchlist.html:130 templates/matchlist.html.py:131
 #: templates/matchlist.html:145 templates/matchlist.html.py:146
 #: templates/review.html:35
+#, fuzzy
 msgid "show"
-msgstr ""
+msgstr "Ne montrer que les matchs non affectés"
 
 #. Translators: Check
 #: templates/matchlist.html:82 templates/matchlist.html.py:114
@@ -6049,22 +6180,25 @@ msgid "unchk"
 msgstr ""
 
 #: templates/matchlist.html:234
+#, fuzzy
 msgid "unrated"
-msgstr ""
+msgstr "Match non-classé"
 
 #. Translators: No spaces
 #: templates/matchlist.html:238
+#, fuzzy
 msgid "offline,online"
-msgstr ""
+msgstr "Online"
 
 #: templates/period.html:10 templates/period.html.py:301
-#, python-format
+#, fuzzy, python-format
 msgid "List %(n)s"
-msgstr ""
+msgstr "Meilleurs des N matchs"
 
 #: templates/period.html:27
+#, fuzzy
 msgid "best"
-msgstr ""
+msgstr "Meilleur des "
 
 #: templates/period.html:30
 msgid "most specialized"
@@ -6072,45 +6206,57 @@ msgstr ""
 
 #. Translators: Rating changes during a period.
 #: templates/period.html:37
+#, fuzzy
 msgid "Up/Down"
-msgstr ""
+msgstr "Les filtres n'ont rien retourné :("
 
 #: templates/period.html:69 templates/period.html.py:136
 #: templates/player.html:66 templates/player.html.py:149
 #: templates/player.html:237 templates/ratingdetails.html:63
 #: templates/ratinglist.html:37 templates/ratinglist.html.py:39
+#, fuzzy
 msgid "vP"
-msgstr ""
+msgstr "rang vP"
 
 #: templates/period.html:88 templates/period.html.py:155
 #: templates/player.html:86 templates/player.html.py:169
 #: templates/player.html:262 templates/ratingdetails.html:88
 #: templates/ratinglist.html:45 templates/ratinglist.html.py:47
+#, fuzzy
 msgid "vT"
-msgstr ""
+msgstr "rang vT"
 
 #: templates/period.html:107 templates/period.html.py:174
 #: templates/player.html:106 templates/player.html.py:189
 #: templates/player.html:287 templates/ratingdetails.html:113
 #: templates/ratinglist.html:53 templates/ratinglist.html.py:55
+#, fuzzy
 msgid "vZ"
-msgstr ""
+msgstr "rang vZ"
 
 #: templates/period.html:269
+#, fuzzy
 msgid "Winners"
-msgstr ""
+msgstr "Matchs des vainqueurs et des perdants"
 
 #: templates/period.html:286
+#, fuzzy
 msgid "Losers"
-msgstr ""
+msgstr "Matchs des vainqueurs et des perdants"
 
 #: templates/period.html:308
+#, fuzzy
 msgid "End"
-msgstr ""
+msgstr "date de départ de l'équipe"
 
 #: templates/period.html:312
+#, fuzzy
 msgid "Active players"
 msgstr ""
+"Les valeurs Null sont placées avant les valeurs non-Null, si bien qu'il faut "
+"commencer par les supprimer. Le filtre sur <code>decay</code> permet de ne "
+"considérer que les joueurs actifs. Une autre méthode, plus propre, consiste "
+"à demander directement les niveaux."
 
 #: templates/period.html:314
 #, python-format
@@ -6120,20 +6266,24 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: templates/period.html:318
+#, fuzzy
 msgid "Leading race"
-msgstr ""
+msgstr "Race"
 
 #: templates/period.html:325
+#, fuzzy
 msgid "Lagging race"
-msgstr ""
+msgstr "Race"
 
 #: templates/period.html:367
+#, fuzzy
 msgid "Show races:"
-msgstr ""
+msgstr "Races :"
 
 #: templates/period.html:377
+#, fuzzy
 msgid "Race switchers"
-msgstr ""
+msgstr "Race"
 
 #: templates/period.html:378
 msgid "Random and race switchers"
@@ -6141,32 +6291,43 @@ msgstr ""
 
 #: templates/periodpagenav.html:20 templates/periodpagenav.html.py:41
 #: templates/periodpagenav.html:70
+#, fuzzy
 msgid "previous"
 msgstr ""
+"%(player)s a commencé le match avec un avantage de %(na)s–%(nb)s lié à un "
+"précédent match."
 
 #: templates/periodpagenav.html:27
 msgid "previous period"
 msgstr ""
 
 #: templates/periodpagenav.html:34
+#, fuzzy
 msgid "first"
 msgstr ""
+"Entrez d'abord les événements les <strong>moins importants</strong> (ceux "
+"joués en premier, ou réunissant le plus de joueurs). Les finales doivent "
+"être placées en bas."
 
 #: templates/periodpagenav.html:49
+#, fuzzy
 msgid "next"
-msgstr ""
+msgstr "Niveau suivant :"
 
 #: templates/periodpagenav.html:56
+#, fuzzy
 msgid "last"
-msgstr ""
+msgstr "Dernière mise à jour des niveaux"
 
 #: templates/periodpagenav.html:63
+#, fuzzy
 msgid "next period"
-msgstr ""
+msgstr "Niveau suivant :"
 
 #: templates/periods.html:15
+#, fuzzy
 msgid "List date"
-msgstr ""
+msgstr "Liste {num} : {date}"
 
 #. Translators: Overpowered
 #: templates/periods.html:17
@@ -6175,22 +6336,26 @@ msgstr ""
 
 #. Translators: Underpowered
 #: templates/periods.html:19
+#, fuzzy
 msgid "UP"
-msgstr ""
+msgstr "Les filtres n'ont rien retourné :("
 
 #: templates/periods.html:20
+#, fuzzy
 msgid "Active"
-msgstr ""
+msgstr "si le groupe est actif"
 
 #. Translators: All-time winrates
 #: templates/player.html:29
+#, fuzzy
 msgid "all-time"
-msgstr ""
+msgstr "Tous"
 
 #. Translators: Recent winrates
 #: templates/player.html:33
+#, fuzzy
 msgid "form"
-msgstr ""
+msgstr "Forme"
 
 #. Translators: Highest ratings
 #: templates/player.html:37
@@ -6233,43 +6398,52 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: templates/player.html:388
+#, fuzzy
 msgid "Edit info"
-msgstr ""
+msgstr "modifier"
 
 #: templates/player.html:389
+#, fuzzy
 msgid "Admin interface"
 msgstr ""
+"Une fois que vous avez entré tous les matches d'un événement, fermez-le. Il "
+"disparaitra de la liste ci-dessous et de toutes les listes déroulantes du "
+"site, ce qui facilitera la compréhension. Au besoin, vous pouvez rouvrir un "
+"événement depuis l'interface de gestion, ou depuis la page de l'événement."
 
 #: templates/player.html:389
+#, fuzzy
 msgctxt "admin interface"
 msgid "admin"
-msgstr ""
+msgstr "admin"
 
 #: templates/player.html:414 templates/team.html:84
+#, fuzzy
 msgid "Rank"
-msgstr ""
+msgstr "rang"
 
 #. Translators: World rank.
 #: templates/player.html:418
-#, python-format
+#, fuzzy, python-format
 msgid "#%(rank)s World"
-msgstr ""
+msgstr "#%(rank)s %(name)s"
 
 #. Translators: Rank among non-Koreans.
 #: templates/player.html:428
-#, python-format
+#, fuzzy, python-format
 msgid "#%(rank)s Non-Korean"
-msgstr ""
+msgstr "#%(rank)s %(name)s"
 
 #. Translators: Rank in a country.
 #: templates/player.html:439
-#, python-format
+#, fuzzy, python-format
 msgid "#%(rank)s %(countryfull)s"
-msgstr ""
+msgstr "#%(rank)s %(name)s"
 
 #: templates/player.html:448
+#, fuzzy
 msgid "Full name"
-msgstr ""
+msgstr "nom complet de l'événement (y compris les noms des parents)"
 
 #: templates/player.html:454 templates/team.html:39
 msgid "AKA"
@@ -6293,25 +6467,29 @@ msgid "SC2E"
 msgstr ""
 
 #: templates/player.html:564
-#, python-format
+#, fuzzy, python-format
 msgid "Rating history for %(tag)s"
-msgstr ""
+msgstr "Evolution de %(pl)s"
 
 #: templates/player.html:624
+#, fuzzy
 msgid "Number of games"
-msgstr ""
+msgstr "nombre de parties jouées"
 
 #: templates/player.html:636
+#, fuzzy
 msgid "vs. Protoss"
-msgstr ""
+msgstr "Protoss"
 
 #: templates/player.html:648
+#, fuzzy
 msgid "vs. Terran"
-msgstr ""
+msgstr "Terran"
 
 #: templates/player.html:660
+#, fuzzy
 msgid "vs. Zerg"
-msgstr ""
+msgstr "Zerg"
 
 #. Translators: General rating
 #: templates/player.html:673
@@ -6320,25 +6498,29 @@ msgstr ""
 
 #. Translators: Stories are the dots on a player's rating chart.
 #: templates/player.html:686
+#, fuzzy
 msgid "Stories"
-msgstr ""
+msgstr "Extant stories"
 
 #: templates/player.html:703
+#, fuzzy
 msgid "Team switches"
-msgstr ""
+msgstr "Par équipe"
 
 #: templates/player.html:725
 msgid "Most recent results"
 msgstr ""
 
 #: templates/player.html:732
+#, fuzzy
 msgid "Team history"
-msgstr ""
+msgstr "Historique"
 
 #: templates/player.html:736 templates/player_transfers.html:17
 #: templates/team.html:178
+#, fuzzy
 msgid "Joined"
-msgstr ""
+msgstr "Que HasuObs a rejoint mousesports"
 
 #. Translators: As in "to leave", not "not right".
 #: templates/player.html:737 templates/player_transfers.html:15
@@ -6348,9 +6530,9 @@ msgstr ""
 
 #. Translators: Earnings for [someone]
 #: templates/player_earnings.html:12
-#, python-format
+#, fuzzy, python-format
 msgid "%(tag)s earnings"
-msgstr ""
+msgstr "Tag"
 
 #: templates/player_earnings.html:15
 #, python-format
@@ -6358,25 +6540,28 @@ msgid "In total, %(tag)s has earned $%(money)s."
 msgstr ""
 
 #: templates/player_earnings.html:17
+#, fuzzy
 msgid "Broken down by currency, that is…"
-msgstr ""
+msgstr "Devise"
 
 #: templates/player_earnings.html:27
 msgid "Placement"
 msgstr ""
 
 #: templates/player_earnings.html:29
+#, fuzzy
 msgid "Tournament"
-msgstr ""
+msgstr "Tournoi à double élimination"
 
 #: templates/player_results.html:11
-#, python-format
+#, fuzzy, python-format
 msgid "%(tag)s match history"
-msgstr ""
+msgstr "Historique des matchs"
 
 #: templates/player_results.html:16
+#, fuzzy
 msgid "Filter by"
-msgstr ""
+msgstr "Filtrer"
 
 #: templates/player_results.html:34
 #, python-format
@@ -6386,8 +6571,9 @@ msgid ""
 msgstr ""
 
 #: templates/player_results.html:42
+#, fuzzy
 msgid "Postable History"
-msgstr ""
+msgstr "Historique"
 
 #: templates/player_results.html:46
 #, python-format
@@ -6408,8 +6594,9 @@ msgid ""
 msgstr ""
 
 #: templates/pred_4pswiss.html:71 templates/pred_rrgroup.html:105
+#, fuzzy
 msgid "Update group progress"
-msgstr ""
+msgstr "Mettre à jour la progression du match"
 
 #: templates/pred_4pswiss.html:73 templates/pred_proleague.html:66
 #: templates/pred_rrgroup.html:107 templates/pred_sebracket.html:66
@@ -6420,13 +6607,15 @@ msgstr ""
 
 #: templates/pred_4pswiss.html:82 templates/pred_proleague.html:75
 #: templates/pred_rrgroup.html:116 templates/pred_sebracket.html:75
+#, fuzzy
 msgid "Update results"
-msgstr ""
+msgstr "Mettre à jour les résultats"
 
 #: templates/pred_4pswiss.html:89 templates/pred_proleague.html:82
 #: templates/pred_rrgroup.html:123 templates/pred_sebracket.html:82
+#, fuzzy
 msgid "Clear results"
-msgstr ""
+msgstr "Effacer les résultats"
 
 #. Translators: Something that can be posted on a forum.
 #: templates/pred_4pswiss.html:93 templates/pred_match.html:182
@@ -6437,128 +6626,135 @@ msgstr ""
 
 #: templates/pred_4pswiss.html:108 templates/pred_match.html:191
 #: templates/pred_proleague.html:101 templates/pred_rrgroup.html:142
+#, fuzzy
 msgid "Formats:"
-msgstr ""
+msgstr "Formats:"
 
 #: templates/pred_4pswiss.html:109 templates/pred_match.html:192
 #: templates/pred_proleague.html:102 templates/pred_rrgroup.html:143
+#, fuzzy
 msgid "Team Liquid"
-msgstr ""
+msgstr "Team Liquid"
 
 #: templates/pred_4pswiss.html:110 templates/pred_match.html:193
 #: templates/pred_proleague.html:103 templates/pred_rrgroup.html:144
+#, fuzzy
 msgid "Reddit"
-msgstr ""
+msgstr "Reddit"
 
 #: templates/pred_match.html:15
+#, fuzzy
 msgid "Verdict:"
-msgstr ""
+msgstr "Verdict:"
 
 #: templates/pred_match.html:16
+#, fuzzy
 msgid "Even chances."
-msgstr ""
+msgstr "Chances égales."
 
 #: templates/pred_match.html:17
-#, python-format
+#, fuzzy, python-format
 msgid "Slight advantage for %(pl)s."
-msgstr ""
+msgstr "Petit avantage à %(pl)s."
 
 #: templates/pred_match.html:18
-#, python-format
+#, fuzzy, python-format
 msgid "Advantage for %(pl)s."
-msgstr ""
+msgstr "Petit avantage à %(pl)s."
 
 #: templates/pred_match.html:19
-#, python-format
+#, fuzzy, python-format
 msgid "Large advantage for %(pl)s."
-msgstr ""
+msgstr "Grand avantage à %(pl)s."
 
 #: templates/pred_match.html:20
-#, python-format
+#, fuzzy, python-format
 msgid "Overwhelming advantage for %(pl)s."
-msgstr ""
+msgstr "Avantage écrasant à %(pl)s."
 
 #: templates/pred_match.html:79
 msgid "Historical score"
-msgstr ""
+msgstr "Score historique"
 
 #. Translators: Opposing race here meaning the race relevant to the match being predicted.
 #: templates/pred_match.html:94
 msgid "Score vs. opposing race"
-msgstr ""
+msgstr "Score contre la race de l'adversaire"
 
 #. Translators: Form as in the current form of a player.
 #: templates/pred_match.html:109
 msgid "Form"
-msgstr ""
+msgstr "Forme"
 
 #: templates/pred_match.html:123
 msgid "Form vs. opposing race"
-msgstr ""
+msgstr "Forme contre la race de l'adversaire"
 
 #: templates/pred_match.html:137
 msgid "Score vs. each other"
-msgstr ""
+msgstr "Score l'un contre l'autre"
 
 #: templates/pred_match.html:149 templates/pred_proleague.html:64
 msgid "Update match progress"
-msgstr ""
+msgstr "Mettre à jour le match"
 
 #: templates/pred_match.html:156 templates/pred_match.html.py:162
 #, python-format
 msgid "Score for %(pl)s"
-msgstr ""
+msgstr "Score pour %(pl)s"
 
 #. Translators: player names, so e.g. Team Jaedong vs. Team Mvp
 #: templates/pred_proleague.html:11
 #, python-format
 msgid "Team %(pla)s vs. Team %(plb)s"
-msgstr ""
+msgstr "Équipe %(pla)s contre Équipe %(plb)s"
 
 #. Translators: Team [player], e.g. "Team Jaedong"
 #: templates/pred_proleague.html:19 templates/pred_proleague.html.py:25
 #, python-format
 msgid "Team %(p)s"
-msgstr ""
+msgstr "Équipe %(p)s"
 
 #: templates/pred_sebracket.html:23
 #, python-format
 msgid "Top %(num)s"
-msgstr ""
+msgstr "Top %(num)s"
 
 #: templates/pred_sebracket.html:64
 msgid "Update bracket progress"
-msgstr ""
+msgstr "Mettre à jour l'arbre"
 
 #: templates/pred_sebracket.html:105
 msgid "Team Liquid (all)"
-msgstr ""
+msgstr "Team Liquid (tout)"
 
 #: templates/pred_sebracket.html:106
 msgid "Reddit (table)"
-msgstr ""
+msgstr "Reddit (tableau)"
 
 #: templates/pred_sebracket.html:107
 msgid "Reddit (median bracket)"
-msgstr ""
+msgstr "Reddit (arbre médian)"
 
 #: templates/predict.html:27
 msgid "Show me the future!"
-msgstr ""
+msgstr "Lis moi l'avenir!"
 
 #: templates/predict.html:28
 msgid "Parse Liquipedia Bracket!"
-msgstr ""
+msgstr "Analyser l'arbre Liquipedia"
 
 #: templates/predict.html:37
 msgid ""
 "Enter one player per line. The player information must uniquely identify the "
 "player, and should be space-separated list of any of the following:"
 msgstr ""
+"Entrez un joueur par ligne. Les informations doivent identifier le joueur, "
+"et doivent être une liste espacées d'éléments suivants :"
 
 #: templates/predict.html:41
 msgid "Race, i.e. \"P\", \"T\", \"Z\", \"R\" or \"S\"."
-msgstr ""
+msgstr "Race, i.e. \"P\", \"T\", \"Z\", \"R\" or \"S\"."
 
 #: templates/predict.html:42
 #, python-format
@@ -6566,22 +6762,28 @@ msgid ""
 "A two- or three-letter %(a)sISO 3166-1 alpha-2</a> country code. e.g. \"KR"
 "\", or the common English name of a country."
 msgstr ""
+"Un code pays %(a)sISO 3166-1 alpha-2</a> de deux ou trois lettres, par "
+"exemple \"KR\"\", ou le nom commun en anglais du pays."
 
 #: templates/predict.html:44
 msgid ""
 "Player or team aliases (we add these to the database when we feel like "
 "they're needed), e.g. \"DRG\"."
 msgstr ""
+"Alias du joueur ou de l'équipe (nous ajoutons ceux-ci à la base de données "
+"quand nous pensons qu'ils sont nécessaires), par exemple \"DRD\"."
 
 #: templates/predict.html:45
 msgid ""
 "A player ID number, which you can get from the URL of the player page, e.g. "
 "\"4\"."
 msgstr ""
+"Le nombre ID du joueur que vous pouvez avoir à partir de l'URL de la page du "
+"joueur, par exemple \"4\"."
 
 #: templates/predict.html:48 templates/results_search.html:49
 msgid "Note that everything is case insensitive."
-msgstr ""
+msgstr "Notez que tout les entrées ne sont pas sensibles à la casse."
 
 #: templates/predict.html:50
 msgid "For <b>single elimination brackets</b> the following is possible:"
@@ -6637,7 +6839,7 @@ msgstr ""
 
 #: templates/ratingdetails.html:54
 msgid "Old rtg."
-msgstr ""
+msgstr "Ancienne éval."
 
 #: templates/ratingdetails.html:55
 msgid "Opposition"
@@ -6645,19 +6847,19 @@ msgstr ""
 
 #: templates/ratingdetails.html:56
 msgid "Expected score"
-msgstr ""
+msgstr "Score attendu"
 
 #: templates/ratingdetails.html:57
 msgid "Actual score"
-msgstr ""
+msgstr "Score actuel"
 
 #: templates/ratingdetails.html:58
 msgid "Performance"
-msgstr ""
+msgstr "Performance"
 
 #: templates/ratingdetails.html:59
 msgid "New rtg."
-msgstr ""
+msgstr "Nouvelle éval."
 
 #: templates/ratingdetails.html:60
 msgid "Adjustment"
@@ -6665,7 +6867,7 @@ msgstr ""
 
 #: templates/ratingdetails.html:169
 msgid "Exact game details:"
-msgstr ""
+msgstr "Détails:"
 
 #: templates/ratingdetails.html:176
 #, python-format
@@ -6683,7 +6885,7 @@ msgstr ""
 
 #: templates/ratinglist.html:156
 msgid "No entries found."
-msgstr ""
+msgstr "Pas d'entrées trouvées."
 
 #: templates/records.html:14
 msgid "To avoid rating artifacts, the earliest periods are not counted."
@@ -6704,39 +6906,39 @@ msgstr ""
 
 #: templates/records.html:29
 msgid "Rating PvP"
-msgstr ""
+msgstr "Évaluation PvP"
 
 #: templates/records.html:30
 msgid "Rating PvT"
-msgstr ""
+msgstr "Évaluation PvT"
 
 #: templates/records.html:31
 msgid "Rating PvZ"
-msgstr ""
+msgstr "Évaluation PvZ"
 
 #: templates/records.html:36
 msgid "Rating TvP"
-msgstr ""
+msgstr "Évaluation TvP"
 
 #: templates/records.html:37
 msgid "Rating TvT"
-msgstr ""
+msgstr "Évaluation TvT"
 
 #: templates/records.html:38
 msgid "Rating TvZ"
-msgstr ""
+msgstr "Évaluation TvZ"
 
 #: templates/records.html:43
 msgid "Rating ZvP"
-msgstr ""
+msgstr "Évaluation ZvP"
 
 #: templates/records.html:44
 msgid "Rating ZvT"
-msgstr ""
+msgstr "Évaluation ZvT"
 
 #: templates/records.html:45
 msgid "Rating ZvZ"
-msgstr ""
+msgstr "Évaluation ZvZ"
 
 #: templates/reports_balance.html:14
 msgid ""
@@ -6795,11 +6997,11 @@ msgstr ""
 
 #: templates/reports_balance.html:124
 msgid "Performance difference"
-msgstr ""
+msgstr "Différence de performance"
 
 #: templates/reports_balance.html:151
 msgid "Performance difference [points]"
-msgstr ""
+msgstr "Différence de performance (points)"
 
 #: templates/reports_balance.html:172 templates/reports_balance.html.py:180
 #: templates/reports_balance.html:188
@@ -6809,11 +7011,11 @@ msgstr ""
 #: templates/results.html:11
 #, python-format
 msgid "Results for %(date)s"
-msgstr ""
+msgstr "Résultats pour %(date)s"
 
 #: templates/results.html:16
 msgid "Go to date:"
-msgstr ""
+msgstr "Aller au:"
 
 #: templates/results.html:33 templates/results.html.py:76
 msgid "previous month"
@@ -6825,19 +7027,19 @@ msgstr ""
 
 #: templates/results.html:45 templates/results.html.py:88
 msgid "today (or latest)"
-msgstr ""
+msgstr "Aujourd'hui (ou dernier)"
 
 #: templates/results.html:50 templates/results.html.py:93
 msgid "next day"
-msgstr ""
+msgstr "jour suivant"
 
 #: templates/results.html:57 templates/results.html.py:100
 msgid "next month"
-msgstr ""
+msgstr "mois suivant"
 
 #: templates/results.html:108
 msgid "No registered results on this date."
-msgstr ""
+msgstr "Pas de résultats enregistrés pour cette date."
 
 #: templates/results.html:111
 #, python-format
@@ -6858,7 +7060,7 @@ msgstr ""
 
 #: templates/results_search.html:42
 msgid "Race, i.e. \"P\", \"T\", \"Z\", \"R\" or \"S\""
-msgstr ""
+msgstr "Race, i.e. \"P\", \"T\", \"Z\", \"R\" or \"S\"."
 
 #: templates/results_search.html:43
 #, python-format
@@ -6876,12 +7078,16 @@ msgid ""
 "Player or team aliases (we add these to the database when we feel like "
 "they're needed), e.g. \"DRG\""
 msgstr ""
+"Alias du joueur ou de l'équipe (nous ajoutons ceux-ci à la base de données "
+"quand nous pensons qu'ils sont nécessaires), par exemple \"DRG\"."
 
 #: templates/results_search.html:46
 msgid ""
 "A player ID number, which you can get from the URL of the player page, e.g. "
 "\"4\""
 msgstr ""
+"Le nombre ID du joueur que vous pouvez avoir à partir de l'URL de la page du "
+"joueur, par exemple \"4\"."
 
 #: templates/results_search.html:52
 #, python-format
@@ -6907,11 +7113,11 @@ msgstr ""
 
 #: templates/results_search.html:70 templates/results_search.html.py:80
 msgid "Check all"
-msgstr ""
+msgstr "Cocher tout"
 
 #: templates/results_search.html:71 templates/results_search.html.py:81
 msgid "Uncheck all"
-msgstr ""
+msgstr "Décocher tout"
 
 #: templates/results_search.html:84
 msgid "The following modifications will be made to all checked matches:"
@@ -6923,16 +7129,16 @@ msgstr ""
 
 #: templates/review.html:42
 msgid "Date:"
-msgstr ""
+msgstr "Date:"
 
 #. Translators: Game version
 #: templates/review.html:47
 msgid "Game:"
-msgstr ""
+msgstr "Partie:"
 
 #: templates/review.html:51
 msgid "Type:"
-msgstr ""
+msgstr "Type:"
 
 #: templates/review.html:55
 msgid "Source:"
@@ -6940,7 +7146,7 @@ msgstr ""
 
 #: templates/review.html:59
 msgid "Contact:"
-msgstr ""
+msgstr "Contact:"
 
 #: templates/review.html:63
 msgid "Notes:"
@@ -6948,7 +7154,7 @@ msgstr ""
 
 #: templates/review.html:71
 msgid "There are no results awaiting review."
-msgstr ""
+msgstr "Il n'y a pas de révision à effecteur."
 
 #: templates/review.html:75
 msgid "To all checked submissions, do the following:"
@@ -6967,28 +7173,28 @@ msgstr ""
 #: templates/team.html:22
 #, python-format
 msgid "%(teamname)s was founded on %(founded)s."
-msgstr ""
+msgstr "%(teamname)s a été fondée le %(founded)s."
 
 #: templates/team.html:24
 #, python-format
 msgid "%(teamname)s was disbanded on %(disbanded)s."
-msgstr ""
+msgstr "%(teamname)s a été dissous le %(disbanded)s."
 
 #: templates/team.html:33
 msgid "admin"
-msgstr ""
+msgstr "admin"
 
 #: templates/team.html:47
 msgid "Short name"
-msgstr ""
+msgstr "Acronyme"
 
 #: templates/team.html:53
 msgid "Founded"
-msgstr ""
+msgstr "Fondée"
 
 #: templates/team.html:59
 msgid "Disbanded"
-msgstr ""
+msgstr "Dissous"
 
 #: templates/team.html:76 templates/teams.html:24
 msgid "Top 5 rating"
@@ -6998,15 +7204,15 @@ msgstr ""
 #: templates/team.html:89
 #, python-format
 msgid "#%(rank)s %(name)s"
-msgstr ""
+msgstr "#%(rank)s %(name)s"
 
 #: templates/team.html:103
 msgid "Offline matches"
-msgstr ""
+msgstr "Matches hors-ligne"
 
 #: templates/team.html:148
 msgid "Active roster"
-msgstr ""
+msgstr "Membres actifs"
 
 #: templates/team.html:149
 #, python-format
@@ -7036,41 +7242,41 @@ msgstr[1] ""
 
 #: templates/team.html:160
 msgid "Non-playing members"
-msgstr ""
+msgstr "Membres non-joueur"
 
 #: templates/team.html:161
 #, python-format
 msgid "Assigned to %(teamname)s in a non-playing capacity:"
-msgstr ""
+msgstr "Assigné à %(teamname)s dans une position autre que joueur:"
 
 #: templates/team.html:171
 msgid "Past members"
-msgstr ""
+msgstr "Anciens membres"
 
 #: templates/teams.html:19
 msgid "All-kill score"
-msgstr ""
+msgstr "Score All-kill"
 
 #: templates/teams.html:21
 msgid "Proleague score"
-msgstr ""
+msgstr "Score Proleague"
 
 #: templates/teams.html:57
 msgid "Disbanded teams"
-msgstr ""
+msgstr "Équipes dissous"
 
 #: templates/miniURL/list.html:9
 msgid "Short URLs list"
-msgstr ""
+msgstr "Liste des mini-URLs"
 
 #: templates/miniURL/list.html:15
 msgid "via"
-msgstr ""
+msgstr "via"
 
 #: templates/miniURL/list.html:16
 #, python-format
 msgid "created by %(sub)s"
-msgstr ""
+msgstr "crée par %(sub)s"
 
 #: templates/miniURL/list.html:17
 #, python-format
@@ -7081,8 +7287,8 @@ msgstr[1] ""
 
 #: templates/miniURL/list.html:20
 msgid "No short URLs."
-msgstr ""
+msgstr "Pas de mini-URL trouvé"
 
 #: templates/miniURL/new.html:9
 msgid "URL shortener"
-msgstr ""
+msgstr "Raccourcisseur d'URL"
