@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Aligulac\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-02 23:06+0200\n"
-"PO-Revision-Date: 2014-06-12 16:04+0100\n"
+"PO-Revision-Date: 2014-06-24 17:55+0100\n"
 "Last-Translator: Otolia <amoconst@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -6613,7 +6613,6 @@ msgstr "Mettre à jour les résultats"
 
 #: templates/pred_4pswiss.html:89 templates/pred_proleague.html:82
 #: templates/pred_rrgroup.html:123 templates/pred_sebracket.html:82
-#, fuzzy
 msgid "Clear results"
 msgstr "Effacer les résultats"
 
@@ -6626,9 +6625,8 @@ msgstr ""
 
 #: templates/pred_4pswiss.html:108 templates/pred_match.html:191
 #: templates/pred_proleague.html:101 templates/pred_rrgroup.html:142
-#, fuzzy
 msgid "Formats:"
-msgstr "Formats:"
+msgstr "Formats :"
 
 #: templates/pred_4pswiss.html:109 templates/pred_match.html:192
 #: templates/pred_proleague.html:102 templates/pred_rrgroup.html:143
@@ -6915,15 +6913,15 @@ msgstr ""
 #: templates/records.html:17
 #, python-format
 msgid "Highest ratings ever achieved by %(rc)s."
-msgstr ""
+msgstr "Plus haute évaluation jamais atteinte par %(rc)s."
 
 #: templates/records.html:19
 msgid "Highest ratings ever achieved"
-msgstr ""
+msgstr "Plus haute évaluation jamais atteinte"
 
 #: templates/records.html:26
 msgid "Highest ratings ever achieved by matchup"
-msgstr ""
+msgstr "Plus haute évaluation jamais atteinte par match-up"
 
 #: templates/records.html:29
 msgid "Rating PvP"
@@ -6966,6 +6964,8 @@ msgid ""
 "The following chart show the historical month-by-month winrates for each non-"
 "mirror matchup in the database."
 msgstr ""
+"Le graphique suivant montre l'historique mensuel des ratios de victoires "
+"pour chaque match-up non-mirroir dans la base de données."
 
 #: templates/reports_balance.html:16
 msgid ""
@@ -6974,6 +6974,10 @@ msgid ""
 "likely correlated to) actual game balance throughout the whole player "
 "population."
 msgstr ""
+"Noter que cela contiens des informations sur l'équilibrage du <em>méta-jeue</"
+"em> au niveau des joueurs les plus compétents</em>, et cela ne doit pas être "
+"confondu (même si les deux sont liés) avec l'équilibrage du jeu pour "
+"l'ensemble des joueurs."
 
 #: templates/reports_balance.html:18
 msgid ""
@@ -6981,17 +6985,21 @@ msgid ""
 "Protoss vs. Terran graph shoots up, that means Protoss is doing well and "
 "Terran poorly."
 msgstr ""
+"Le pourcentage de victoire est indiqué avec la priorité donnée à la race "
+"listée en premier, donc si la courbe Protoss vs. Terran est supérieure à 50% "
+"alors cela signifie que les joueurs Protoss ont plus de succès dans le match-"
+"up que les joueurs Terran."
 
 #: templates/reports_balance.html:59
 #, python-format
 msgid "Winrate [%%]"
-msgstr ""
+msgstr "Winrate [%%]"
 
 #: templates/reports_balance.html:82 templates/reports_balance.html.py:90
 #: templates/reports_balance.html:98 templates/reports_balance.html.py:172
 #: templates/reports_balance.html:180 templates/reports_balance.html.py:188
 msgid "F Y"
-msgstr ""
+msgstr "F Y"
 
 #: templates/reports_balance.html:108
 #, python-format
@@ -7006,6 +7014,16 @@ msgid ""
 "strong>, which is to be interpreted as that Terran players overall performed "
 "200 points better than expected."
 msgstr ""
+"Le graphique Différence de Performance montre la différence "
+"<em>approximative</em> entre la <em>performance réelle</em> donnée par les "
+"résultats et la <em>performance calculée</em> de l'évaluation. Par exemple, "
+"si, en moyenne sur un mois, tous les Terran ont une différence d'évaluation "
+"moyenne de -100 (ce qui signifie que leurs évaluations moyenne étaient "
+"égales à celles de leurs opposants - 100), mais qu'ils ont joué tel que leur "
+"différence d'évaluation moyenne soit de +100 (correspondant à un pourcentage "
+"de victoire de 54.5%%), alors cela équivaut à une différence de performance "
+"de <strong>+200</strong>. Cela doit être interprêté comme : les joueurs "
+"Terran en général ont joué avec 200 points de plus que prévu."
 
 #: templates/reports_balance.html:110
 msgid ""
@@ -7015,6 +7033,11 @@ msgid ""
 "of the players, this chart will tend toward equilibrium, even if balance "
 "never changes."
 msgstr ""
+"Ce graphique peut éviter certains problèmes rencontré avec celui au-dessus "
+"qui est potentiellement influencé par des séries de victoires d'un ou "
+"plusieurs joueurs en forme. Toutefois, les évalutations rattrapant les "
+"performances des joueurs, ce graphique tend à l'équilibre même si "
+"l'équilibrage du jeu ne change pas."
 
 #: templates/reports_balance.html:124
 msgid "Performance difference"
@@ -7027,7 +7050,7 @@ msgstr "Différence de performance (points)"
 #: templates/reports_balance.html:172 templates/reports_balance.html.py:180
 #: templates/reports_balance.html:188
 msgid "Difference"
-msgstr ""
+msgstr "Différence"
 
 #: templates/results.html:11
 #, python-format
@@ -7040,11 +7063,11 @@ msgstr "Aller au:"
 
 #: templates/results.html:33 templates/results.html.py:76
 msgid "previous month"
-msgstr ""
+msgstr "mois précédent"
 
 #: templates/results.html:40 templates/results.html.py:83
 msgid "previous day"
-msgstr ""
+msgstr "jour précédent"
 
 #: templates/results.html:45 templates/results.html.py:88
 msgid "today (or latest)"
@@ -7068,16 +7091,22 @@ msgid ""
 "Notice something missing? We're always looking for people to help "
 "%(a)spopulate our database</a>!"
 msgstr ""
+"Vous avez remarqué une erreur ou une donnée manquante ? Nous sommes toujours "
+"à la recherche de volontaires pour nous aider à %(a)sremplir notre base de "
+"données</a>!"
 
 #: templates/results_search.html:38
 msgid ""
 "Enter players. The player information does not have to uniquely identify the "
 "player, and should be a space-separated list of any of the following:"
 msgstr ""
+"Entrez les joueurs. Les informations concernant le joueur ne doivent pas "
+"forcément identifier un joueur en particulier, et doivent être une liste "
+"séparée par des espaces consistuées d'éléments suivants:"
 
 #: templates/results_search.html:41
 msgid "Player tag, e.g. \"DongRaeGu\""
-msgstr ""
+msgstr "Pseudo du joueur, par exemple \"DongRaeGu\""
 
 #: templates/results_search.html:42
 msgid "Race, i.e. \"P\", \"T\", \"Z\", \"R\" or \"S\""
@@ -7089,10 +7118,12 @@ msgid ""
 "A two- or three-letter <a href=\"%(uri)s\">ISO 3166-1 alpha-2</a> country "
 "code. e.g. \"KR\", or the common English name of a country"
 msgstr ""
+"Un code pays <a href=\"%(uri)s\">ISO 3166-1 alpha-2</a> de deux ou trois "
+"lettres , ou le nom commun en Anglais du pays"
 
 #: templates/results_search.html:44
 msgid "Team name, e.g. \"MVP\""
-msgstr ""
+msgstr "Le nom d'une équipe, par exemple \"MVP\""
 
 #: templates/results_search.html:45
 msgid ""
@@ -7114,8 +7145,8 @@ msgstr ""
 #, python-format
 msgid "Found %(cnt)s match."
 msgid_plural "Found %(cnt)s matches."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Trouvé %(cnt)s match."
+msgstr[1] "Trouvé %(cnt)s matchs."
 
 #: templates/results_search.html:56
 #, python-format
@@ -7123,6 +7154,9 @@ msgid ""
 "In these games, <a href=\"%(luri)s\">%(ltag)s</a> is %(sc_my)s–%(sc_op)s "
 "(%(pctg)s%%) in games and %(msc_my)s–%(msc_op)s (%(mpctg)s%%) in matches."
 msgstr ""
+"Dans ces parties, <a href=\"%(luri)s\">%(ltag)s</a> est à %(sc_my)s–"
+"%(sc_op)s (%(pctg)s%%) en terme de partie et à %(msc_my)s–%(msc_op)s "
+"(%(mpctg)s%%) en terme de matchs."
 
 #: templates/results_search.html:59
 #, python-format
@@ -7131,6 +7165,9 @@ msgid ""
 "(%(pctg)s%%) in games and %(msc_my)s–%(msc_op)s (%(mpctg)s%%) in matches "
 "against <a href=\"%(ruri)s\">%(rtag)s</a>."
 msgstr ""
+"Dans ces parties, <a href=\"%(luri)s\">%(ltag)s</a> est à %(sc_my)s–"
+"%(sc_op)s (%(pctg)s%%) en terme de partie et à %(msc_my)s–%(msc_op)s "
+"(%(mpctg)s%%) en terme de matchs contre <a href=\"%(ruri)s\">%(rtag)s</a>."
 
 #: templates/results_search.html:70 templates/results_search.html.py:80
 msgid "Check all"
@@ -7143,10 +7180,12 @@ msgstr "Décocher tout"
 #: templates/results_search.html:84
 msgid "The following modifications will be made to all checked matches:"
 msgstr ""
+"Les modifications suivantes vont être effectuées pour tous les matchs "
+"sélectionnés :"
 
 #: templates/review.html:19
 msgid "The following matches were successfully approved:"
-msgstr ""
+msgstr "Les matchs suivants ont été approuvés:"
 
 #: templates/review.html:42
 msgid "Date:"
@@ -7163,7 +7202,7 @@ msgstr "Type:"
 
 #: templates/review.html:55
 msgid "Source:"
-msgstr ""
+msgstr "Source :"
 
 #: templates/review.html:59
 msgid "Contact:"
@@ -7171,7 +7210,7 @@ msgstr "Contact:"
 
 #: templates/review.html:63
 msgid "Notes:"
-msgstr ""
+msgstr "Notes "
 
 #: templates/review.html:71
 msgid "There are no results awaiting review."
@@ -7179,17 +7218,17 @@ msgstr "Il n'y a pas de révision à effecteur."
 
 #: templates/review.html:75
 msgid "To all checked submissions, do the following:"
-msgstr ""
+msgstr "Pour tous les entrées sélectionnées, effecter ce qui suit :"
 
 #: templates/search.html:16
 #, python-format
 msgid "No such player, team or event '%(query)s' found."
-msgstr ""
+msgstr "Aucun joueur, équipe ou événement '%(query)s' trouvé."
 
 #: templates/team.html:20
 #, python-format
 msgid "%(teamname)s was founded on %(founded)s and disbanded on %(disbanded)s."
-msgstr ""
+msgstr "%(teamname)s a été fondée le %(founded)s et dissoute le %(disbanded)s."
 
 #: templates/team.html:22
 #, python-format
@@ -7219,7 +7258,7 @@ msgstr "Dissous"
 
 #: templates/team.html:76 templates/teams.html:24
 msgid "Top 5 rating"
-msgstr ""
+msgstr "Évaluation du Top 5"
 
 #. Translators: #[rank] among [name]
 #: templates/team.html:89
@@ -7244,11 +7283,15 @@ msgid_plural ""
 "%(teamname)s has %(cnt)s players who have played a ranked game within the "
 "last two months."
 msgstr[0] ""
+"%(teamname)s a %(cnt)s joueur qui a joué une partie classée dans les deux "
+"derniers mois."
 msgstr[1] ""
+"%(teamname)s a %(cnt)s joueurs qui ont joué une partie classée dans les deux "
+"derniers mois."
 
 #: templates/team.html:154
 msgid "Inactive roster"
-msgstr ""
+msgstr "Membres inactifs"
 
 #: templates/team.html:155
 #, python-format
@@ -7259,7 +7302,11 @@ msgid_plural ""
 "%(teamname)s has %(cnt)s players who have been temporarily removed from the "
 "ranking due to inactivity."
 msgstr[0] ""
+"%(teamname)s a %(cnt)s joueur qui a été temporairement retiré du classement "
+"à cause de son inactivité."
 msgstr[1] ""
+"%(teamname)s a %(cnt)s joueurs qui ont été temporairement retiré du "
+"classement à cause de leur inactivité."
 
 #: templates/team.html:160
 msgid "Non-playing members"
@@ -7303,8 +7350,8 @@ msgstr "crée par %(sub)s"
 #, python-format
 msgid "(accessed %(ntimes)s time)"
 msgid_plural "(accessed %(ntimes)s times)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "(utilisé %(ntimes)s fois)"
+msgstr[1] "(utilisé %(ntimes)s fois)"
 
 #: templates/miniURL/list.html:20
 msgid "No short URLs."
